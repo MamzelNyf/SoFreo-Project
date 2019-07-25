@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the product page.
+// -----------------------------------------------------------------------------
+
+@include media-breakpoint-up(lg) { 
+.productrow {
+    width: 80%;
+    margin: auto; }
+.product {
+    max-width: 40%;
+    margin-left: 10%;
+    text-align: right; }
+}

@@ -1,0 +1,8 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the about page.
+// -----------------------------------------------------------------------------
+@include media-breakpoint-up(lg) { 
+    .portrait {
+        max-width: 25%;
+        margin-left: 25%; }
+}

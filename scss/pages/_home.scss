@@ -1,0 +1,54 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.bloc {
+  height: 100px;
+  padding-top: 15px;
+  background-color: $back-color;
+  font-size: 2em;
+  text-align: center;
+  color:$text-color; }
+
+.parallax {
+  // Set a specific height 
+  height: calc(100vh - 100px);
+  //Create the parallax scrolling effect 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-image: url("../img/woman.jpg");
+  background-attachment: scroll; 
+  @include media-breakpoint-up(lg) { 
+    background-image: url("../img/woman.jpg")!important; }
+  @include media-breakpoint-up(md) { 
+      background-image: url("../img/woman.jpg"); }      
+}
+
+.intro {
+  position: relative;
+  @media (min-width: 992px) {
+    .intro-img {
+      width: 75%;
+      float: left;
+    }
+    .intro-text {
+      right: 0;
+      width: 60%;
+      margin-top: 3rem;
+      position: absolute;
+      .intro-button {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem;
+      }
+    }
+  }
+  @media (min-width: 1200px) {
+    .intro-text {
+      width: 45%;
+    }
+  }
+}

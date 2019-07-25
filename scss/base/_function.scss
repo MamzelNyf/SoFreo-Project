@@ -1,0 +1,7 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass Function.
+// -----------------------------------------------------------------------------
+
+@function picture-width($col, $total:12) {  
+    @return percentage($col/$total);  
+}

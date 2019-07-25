@@ -1,0 +1,8 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the stockist page.
+// -----------------------------------------------------------------------------
+.map {
+    @include media-breakpoint-up(lg) {padding-left: 15px;}
+    iframe {
+    @extend %full-width;
+    min-height: 480px; } }

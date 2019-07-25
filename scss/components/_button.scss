@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+#submit {
+    float: left;
+    color: $text-color;
+    border: 1px solid white;
+    background-color: $back-color;
+    margin-right: 20px;
+    font-size: 1.1em;
+    padding: 10px;
+    margin-top:10px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    border-radius: 5px; 
+    &:hover {
+        color: $brand-color;
+        border-color: $brand-color; }
+}
+
+.btn-xl {
+    background-color:$primary!important;
+    font-size:1rem;
+    padding: 1rem;
+    border: none;
+}

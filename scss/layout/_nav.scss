@@ -1,0 +1,134 @@
+// -----------------------------------------------------------------------------
+// This file contains Sass for the Nav element.
+// -----------------------------------------------------------------------------
+
+.topnav {
+  position: fixed;
+  width: 50%;
+  top: 0;
+  left: 50%; 
+  z-index: 1;
+  a#icon {
+    display: none; 
+    @media (max-width: 768px) {
+            display: block;
+            height: 37px;
+            width: 40px;
+            position: fixed;
+            right: 0;
+            top: 0;
+            background-color: $back-color;
+            text-align: center;
+            padding-top: 3px;
+            z-index: 1010; }}
+  li{
+    @media (max-width: 768px) {
+          display: none; }
+  }
+    &.responsive {
+      @media (max-width: 768px) {
+        position: fixed;
+        z-index: 1000;
+        width: 100vw; 
+        ul li a#icon {
+        position: absolute;
+        right: 0;
+        top: 0; }
+        li {
+        float: none;
+        display: block;
+        text-align: left; }
+    } 
+  } 
+}
+.navigation {
+  display: flex;
+  position: relative;
+  left: -50%; 
+  @media (max-width: 768px) {
+    display: initial; 
+  }
+  li {
+  flex: 1;
+  transition: all .2s ease; 
+  &:hover, &:focus {
+  flex: 1; }
+  @media (max-width: 768px) {
+    flex: none;
+    transition: none; 
+    &:hover, &:focus {
+    flex: none;  }
+    }
+  }
+  a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: $back-color; 
+  border: $black solid 1px;
+  @media (max-width: 768px) {
+    border-radius: 0; }
+  }
+}
+
+.roundleft {
+  border-radius: 0  0  0 15px; }
+.roundright {
+  border-radius: 0  0 15px 0; }
+.roundmiddle {
+  border-radius: 0  0 15px 15px; 
+  @media (max-width: 768px) {
+      border-radius: 15px 0 0 15px; }
+}
+.navigation a:hover, .topnav li:focus, .social a:hover {
+  background-color: $back-color; }
+.social {
+  position: fixed;
+  top: 0;
+  right: 0; 
+  a {
+    background-color: $back-color;
+    padding: 7.5px 0;
+    width: 40px;
+    display: inline-block;
+    text-align: center; }
+}
+.nomobile {
+  display: none;
+  @include media-breakpoint-up(md) {display: initial; }
+}
+#logomobile { 
+  display: initial;
+  background-color: $back-color;
+  width: 130px;
+  height: 120px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -65px;
+  padding-top: 8px;
+  border-radius: 0  0 15px 15px;
+  z-index: -20;
+  -webkit-transition: top 0.2s ease-in-out;
+  -o-transition: top 0.2s ease-in-out;
+  transition: top 0.2s ease-in-out;
+  @include media-breakpoint-up(md) { display: none;}
+}
+.insta, .facebook {
+  position: fixed;
+  top: 0; }
+.facebook { 
+  top: 50px;
+  @include media-breakpoint-up(md) { left: 85%; top: 0;}
+}
+.insta{
+  top: 100px;
+  @include media-breakpoint-up(md) { left: 80%; top: 0;}
+}
+.fixedright {
+  @media (max-width: 768px) {right: 0; }
+  }
+

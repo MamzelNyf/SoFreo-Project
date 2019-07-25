@@ -1,0 +1,34 @@
+@charset 'UTF-8';
+
+// 1. Configuration
+@import
+  //redefine variables
+  'base/variables',
+  // Import Boostrap Sass
+  "node_modules/bootstrap/scss/bootstrap",
+
+  'base/mixins',
+  'base/function',
+  'base/extend',
+  'base/global',
+  'base/fonts',
+  'base/helpers';
+
+// 2. Layout-related sections
+@import
+  'layout/nav',
+  'layout/footer';
+
+// 3. Components
+@import
+  'components/button';
+
+// 4. Page-specific styles// 4. Page-specific styles
+@import
+  'pages/home',
+  'pages/stockist',
+  'pages/privacy',
+  'pages/about',
+  'pages/product',
+  'pages/contact';
+

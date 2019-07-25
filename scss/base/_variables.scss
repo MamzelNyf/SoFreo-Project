@@ -1,0 +1,11 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+//redefine Bootstrap variable
+$primary: #e6a756 !default;
+$secondary: rgb(12, 12, 12) !default;
+
+// Container's maximum width 
+// @type Length
+$max-width: 1180px !default;

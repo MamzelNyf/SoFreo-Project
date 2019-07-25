@@ -1,0 +1,195 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+//Make all elements from the DOM inherit from the parent box-sizing
+//Since `*` has a specificity of 0, it does not override the `html` value
+//making all elements inheriting from the root box-sizing value
+//See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+//Reset the styles
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, figure, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  @include box-sizing(); }
+  
+//Setup Clearfloat
+
+  .clearfloat {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    clear: both; 
+    float: none;
+    height: 0;
+    width: 0;
+    border: 0 none;
+    line-height: 0; }
+
+// Copy text color
+// @type Color
+$text-color: $white !default;
+
+// Main brand color
+// @type Color
+$brand-color: $primary !default;
+
+// Main background color
+// @type Color
+$back-color: $black !default;
+//Set up basic style for main elements
+
+body {
+  line-height: 1.2;
+  background-color: $back-color;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif; }
+  
+main {
+  width: 100%;
+  min-height: 90vh; }
+
+
+//Basic styles for links
+
+a {
+  color: $text-color;
+  text-decoration: none;
+  @include on-event {
+    color: $brand-color;
+  }
+}
+
+//Basic styles for text
+
+p {
+font-size: 1.1em; 
+line-height: 1.4;}
+
+.bold {
+  font-weight: bold;
+  color: $back-color; }
+
+//Basic styles for titles
+
+h1 {
+font-size: 2em;
+font-weight: 200;
+margin-top: 130px; 
+color: $back-color; 
+@include media-breakpoint-up(md) { font-size: 2.2em; }
+@include media-breakpoint-up(lg) { margin: 150px 0 0; font-size: 2.4em;}
+}
+h2 {
+font-family: MondayBay;
+font-size: 2em;
+font-weight: 200;
+color: $brand-color; 
+@include media-breakpoint-up(md) { margin-bottom: 16px; }
+@include media-breakpoint-up(lg) { margin-bottom: 23px;}
+}
+
+h3 {
+  font-weight: 200;
+  color: $brand-color;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1.5em; }
+
+h4 {
+  color: $brand-color;
+  font-size: 1.2em; }
+
+
+//Basic styles for list
+
+ol, ul {
+    list-style: none; 
+    line-height: 1.4;
+  }  
+
+// Basic styles for positioning
+@each $float in left, right, none  {
+  .#{$float} {
+    float: #{$float};
+  }
+}
+.inline {
+  display: inline-block !important; }
+
+.centertext {
+  text-align: center; }
+
+// Basic Rows and blocs
+
+.row {
+  img {
+    width: 100%;
+    vertical-align: middle;
+    @include box-sizing();
+    padding: 5px; 
+    @include media-breakpoint-up(md) {max-width: picture-width(11);}
+  }
+  p {
+    padding: 15px !important; 
+    @include media-breakpoint-up(lg) { max-width: 70vw; margin: auto; }
+    }
+  h2 {
+  text-align: center; }
+}
+
+.white {
+  margin-bottom: 20px; 
+  @include media-breakpoint-up(lg) { max-width: 40%; margin: 50px 0 0 15px; }
+  p {
+    color: $text-color;
+    padding: 5px 15px; }
+    
+}
+
+.pic {
+  background-image: url("../img/texture-mobile.jpg");
+  background-size: cover;
+  padding: 20px 0 30px 0;
+  text-align: center;
+  // margin: 0 5px 5px;
+  min-height: 30vh; 
+  @include media-breakpoint-up(md) {background-image: url("../img/texture.jpg"); }
+  p{
+    padding: 5px;
+  }
+}
+
+.col-lg-one-fourth {
+  width: picture-width(12);
+  float: left;
+  flex-basis: auto;
+  @include media-breakpoint-up(md) { width: 50%; float: left; } 
+  @include media-breakpoint-up(lg) { width: 25%; float: left; }
+}
+
+.col-md-one-half {
+  width: picture-width(12);
+  @include media-breakpoint-up(md) { 
+  width: picture-width(6);
+  @include box-sizing();
+  float: left; } 
+}
+
+.bg-faded {
+  background-color: fade-out($white, 0.15);
+}
+
+
