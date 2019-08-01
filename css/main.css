@@ -10645,7 +10645,7 @@ h2 {
 }
 
 h3 {
-  font-weight: 200;
+  font-weight: 300;
   color: #e6a756;
   text-align: center;
   padding: 15px 0;
@@ -10733,10 +10733,6 @@ ol, ul {
     width: 25%;
     float: left;
   }
-}
-
-.bg-faded {
-  background-color: rgba(255, 255, 255, 0.85);
 }
 
 .cover {
@@ -11031,23 +11027,20 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../img/woman.jpg");
-  background-attachment: scroll;
-}
-
-@media (min-width: 992px) {
-  .parallax {
-    background-image: url("../img/woman.jpg") !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .parallax {
-    background-image: url("../img/woman.jpg");
-  }
+  background-attachment: fixed;
 }
 
 .intro {
   position: relative;
+}
+
+.intro .intro-text {
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.intro .intro-text h3 {
+  font-weight: 400;
 }
 
 @media (min-width: 992px) {
@@ -11073,6 +11066,75 @@ footer {
   .intro .intro-text {
     width: 45%;
   }
+}
+
+.cta {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(230, 167, 86, 0.9);
+}
+
+.cta .cta-inner {
+  position: relative;
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.cta .cta-inner:before {
+  border-radius: 0.5rem;
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+  z-index: -1;
+}
+
+.cta .socialicon {
+  border-radius: 50%;
+  background-color: #000;
+  width: 2rem;
+  display: inline-block;
+}
+
+.section-heading {
+  text-transform: uppercase;
+}
+
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.section-heading .section-heading-lower {
+  display: block;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.homequote {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+
+.homequote .section-heading-upper {
+  font-size: 2rem;
+}
+
+.homequote .section-heading-lower {
+  font-size: 4rem;
+}
+
+.homequote .quotation {
+  font-size: 4rem;
+  position: absolute;
+  left: -20%;
+  top: -20%;
 }
 
 @media (min-width: 992px) {
