@@ -1,3 +1,15 @@
+.map iframe, .privacy {
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+}
+
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10554,32 +10566,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.map iframe, .privacy {
-  width: 100%;
-  margin: auto;
-  padding: 5px;
-}
-
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
-}
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, figure, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 .clearfloat {
   font-size: 0;
   margin: 0;
@@ -10605,12 +10591,8 @@ main {
 }
 
 a {
-  color: #fff;
-  text-decoration: none;
-}
-
-a:hover, a:active, a:focus {
   color: #e6a756;
+  text-decoration: none;
 }
 
 p {
@@ -10703,47 +10685,15 @@ ol, ul {
 .row img {
   width: 100%;
   vertical-align: middle;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
   padding: 5px;
-}
-
-@media (min-width: 768px) {
-  .row img {
-    max-width: 91.66667%;
-  }
-}
-
-.row p {
-  padding: 15px !important;
-}
-
-@media (min-width: 992px) {
-  .row p {
-    max-width: 70vw;
-    margin: auto;
-  }
-}
-
-.row h2 {
-  text-align: center;
 }
 
 .white {
   margin-bottom: 20px;
 }
 
-@media (min-width: 992px) {
-  .white {
-    max-width: 40%;
-    margin: 50px 0 0 15px;
-  }
-}
-
 .white p {
   color: #fff;
-  padding: 5px 15px;
 }
 
 .pic {
@@ -10765,7 +10715,7 @@ ol, ul {
 }
 
 .col-lg-one-fourth {
-  width: 100%;
+  width: picture-width(12);
   float: left;
   -ms-flex-preferred-size: auto;
   flex-basis: auto;
@@ -10785,60 +10735,19 @@ ol, ul {
   }
 }
 
-.col-md-one-half {
-  width: 100%;
-}
-
-@media (min-width: 768px) {
-  .col-md-one-half {
-    width: 50%;
-    -webkit-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    float: left;
-  }
-}
-
 .bg-faded {
   background-color: rgba(255, 255, 255, 0.85);
+}
+
+.cover {
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 @font-face {
   font-family: 'MondayBay';
   src: url("../font/MondayBay.ttf");
-}
-
-.clearfix::after {
-  clear: both;
-  content: '';
-  display: table;
-}
-
-.container {
-  max-width: 1180px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 100%;
-}
-
-.hide-text {
-  overflow: hidden;
-  padding: 0;
-  text-indent: 101%;
-  white-space: nowrap;
-}
-
-.visually-hidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
 }
 
 .topnav {
@@ -11063,10 +10972,6 @@ footer {
   width: 100%;
 }
 
-footer a {
-  border-bottom: #e6a756 solid 1px;
-}
-
 @media (min-width: 1024px) {
   footer {
     font-size: 1em;
@@ -11080,14 +10985,8 @@ footer a {
 }
 
 .footer-text li {
-  font-size: 1em;
+  font-size: 1.2em;
   margin-bottom: 15px;
-}
-
-@media (max-width: 768px) {
-  .footer-text li {
-    font-size: 0.9em;
-  }
 }
 
 #submit {
@@ -11184,6 +11083,7 @@ footer a {
 
 .map iframe {
   min-height: 480px;
+  border: none;
 }
 
 .privacy {

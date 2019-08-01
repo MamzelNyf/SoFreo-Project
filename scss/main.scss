@@ -7,12 +7,8 @@
   // Import Boostrap Sass
   "node_modules/bootstrap/scss/bootstrap",
 
-  'base/mixins',
-  'base/function',
-  'base/extend',
   'base/global',
-  'base/fonts',
-  'base/helpers';
+  'base/fonts';
 
 // 2. Layout-related sections
 @import

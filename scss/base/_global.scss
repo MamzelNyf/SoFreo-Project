@@ -1,29 +1,3 @@
-// -----------------------------------------------------------------------------
-// This file contains very basic styles.
-// -----------------------------------------------------------------------------
-
-//Make all elements from the DOM inherit from the parent box-sizing
-//Since `*` has a specificity of 0, it does not override the `html` value
-//making all elements inheriting from the root box-sizing value
-//See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-//Reset the styles
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, figure, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  @include box-sizing(); }
   
 //Setup Clearfloat
 
@@ -65,11 +39,8 @@ main {
 //Basic styles for links
 
 a {
-  color: $text-color;
+  color: $primary;
   text-decoration: none;
-  @include on-event {
-    color: $brand-color;
-  }
 }
 
 //Basic styles for text
@@ -138,25 +109,14 @@ ol, ul {
   img {
     width: 100%;
     vertical-align: middle;
-    @include box-sizing();
     padding: 5px; 
-    @include media-breakpoint-up(md) {max-width: picture-width(11);}
   }
-  p {
-    padding: 15px !important; 
-    @include media-breakpoint-up(lg) { max-width: 70vw; margin: auto; }
-    }
-  h2 {
-  text-align: center; }
 }
 
 .white {
   margin-bottom: 20px; 
-  @include media-breakpoint-up(lg) { max-width: 40%; margin: 50px 0 0 15px; }
   p {
-    color: $text-color;
-    padding: 5px 15px; }
-    
+    color: $text-color;}
 }
 
 .pic {
@@ -180,16 +140,10 @@ ol, ul {
   @include media-breakpoint-up(lg) { width: 25%; float: left; }
 }
 
-.col-md-one-half {
-  width: picture-width(12);
-  @include media-breakpoint-up(md) { 
-  width: picture-width(6);
-  @include box-sizing();
-  float: left; } 
-}
-
 .bg-faded {
   background-color: fade-out($white, 0.15);
 }
-
-
+.cover{
+  height: 100%;
+  object-fit: cover;
+}

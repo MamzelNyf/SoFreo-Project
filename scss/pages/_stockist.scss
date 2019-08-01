@@ -5,4 +5,5 @@
     @include media-breakpoint-up(lg) {padding-left: 15px;}
     iframe {
     @extend %full-width;
-    min-height: 480px; } }
+    min-height: 480px; 
+    border:none;} }

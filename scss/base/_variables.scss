@@ -6,6 +6,16 @@
 $primary: #e6a756 !default;
 $secondary: rgb(12, 12, 12) !default;
 
-// Container's maximum width 
-// @type Length
-$max-width: 1180px !default;
+// Full Width
+%full-width{
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+} 
+
+  // Clear inner floats
+.clearfix::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
