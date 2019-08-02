@@ -46,12 +46,10 @@ a {
 //Basic styles for text
 
 p {
-font-size: 1.1em; 
-line-height: 1.4;}
+font-size: 1.2em; 
+line-height: 1.2;
+font-weight: 500;}
 
-.bold {
-  font-weight: bold;
-  color: $back-color; }
 
 //Basic styles for titles
 
@@ -59,6 +57,7 @@ h1 {
 font-size: 2em;
 font-weight: 200;
 margin-top: 130px; 
+margin-bottom:20px!important;
 color: $back-color; 
 @include media-breakpoint-up(md) { font-size: 2.2em; }
 @include media-breakpoint-up(lg) { margin: 150px 0 0; font-size: 2.4em;}
@@ -100,8 +99,6 @@ ol, ul {
 .inline {
   display: inline-block !important; }
 
-.centertext {
-  text-align: center; }
 
 // Basic Rows and blocs
 
@@ -143,4 +140,21 @@ ol, ul {
 .cover{
   height: 100%;
   object-fit: cover;
+}
+
+
+
+//heading with bigger lower text
+.section-heading {
+  text-transform: uppercase;
+  .section-heading-upper {
+    display: block;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .section-heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+  }
 }

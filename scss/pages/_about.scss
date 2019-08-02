@@ -1,8 +1,56 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the about page.
 // -----------------------------------------------------------------------------
-@include media-breakpoint-up(lg) { 
+@include media-breakpoint-up(lg) {
     .portrait {
         max-width: 25%;
-        margin-left: 25%; }
+        margin-left: 25%;
+    }
 }
+
+//white bloc overlapping img
+.about {
+    position: relative;
+    .right {
+        right: 0;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .about-text {
+        background-color: $white;
+        margin-bottom:1rem;
+        h3 {
+            font-weight: 400;
+        }
+    }
+    @media (min-width: 992px) {
+        .about-img {
+            width: 40%;
+        }
+        .about-text {
+            width: 70%;
+            margin-top: 3rem;
+            position: absolute;
+        }
+    }
+    @media (min-width: 1200px) {
+        .about-text {
+            width: 70%;
+        }
+    }
+}
+.about-heading{
+@media (min-width:992px) {
+     .about-heading-content {
+      margin-top: -5rem;
+      position: relative;
+      z-index: 1;
+    }
+  }
+    .about-heading-img {
+      position: relative;
+      z-index: 0;
+    } 
+  }
+  

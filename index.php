@@ -22,14 +22,14 @@
                 <div class="container">
                     <div class="intro">
                         <div class="intro-text left-0 text-center p-5 rounded order-md-2">
-                        <h3 class="mb-4 section-heading">
-                        <span class="section-heading-upper text-black-50">Organic, Plant-based and </span>
-                        <span class="section-heading-lower">delicious!</span>
-                        </h3>
-                        <p class="mb-3">So Freo is locally based and focuses on organic and locally sourced ingredients from WA. 
-                        <br>For school lunch, picnic, plancha or your next outdoor adventure.   
-                        <br>Vegan, High Protein & Gluten Free, <br>it is your healthy choice.
-                        </p>
+                          <h3 class="mb-4 section-heading">
+                          <span class="section-heading-upper text-black-50">Organic, Plant-based and </span>
+                          <span class="section-heading-lower">delicious!</span>
+                          </h3>
+                          <p class="mb-3">So Freo is locally based and focuses on organic and locally sourced ingredients from WA. 
+                          <br>For school lunch, picnic, plancha or your next outdoor adventure.   
+                          <br>Vegan, High Protein & Gluten Free, <br>it is your healthy choice.
+                          </p>
                             <div class="intro-button mx-auto">
                                 <a class="btn btn-primary btn-xl" href="products.php">Our products</a>
                             </div>

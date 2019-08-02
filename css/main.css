@@ -10596,19 +10596,16 @@ a {
 }
 
 p {
-  font-size: 1.1em;
-  line-height: 1.4;
-}
-
-.bold {
-  font-weight: bold;
-  color: #000;
+  font-size: 1.2em;
+  line-height: 1.2;
+  font-weight: 500;
 }
 
 h1 {
   font-size: 2em;
   font-weight: 200;
   margin-top: 130px;
+  margin-bottom: 20px !important;
   color: #000;
 }
 
@@ -10678,10 +10675,6 @@ ol, ul {
   display: inline-block !important;
 }
 
-.centertext {
-  text-align: center;
-}
-
 .row img {
   width: 100%;
   vertical-align: middle;
@@ -10739,6 +10732,22 @@ ol, ul {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+.section-heading {
+  text-transform: uppercase;
+}
+
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.section-heading .section-heading-lower {
+  display: block;
+  font-size: 3rem;
+  font-weight: 100;
 }
 
 @font-face {
@@ -10974,12 +10983,6 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
-  footer {
-    border-top: white 1px solid;
-  }
-}
-
 .footer-text li {
   font-size: 1.2em;
   margin-bottom: 15px;
@@ -11030,44 +11033,6 @@ footer {
   background-attachment: fixed;
 }
 
-.intro {
-  position: relative;
-}
-
-.intro .intro-text {
-  background-color: #fff;
-  margin-bottom: 1rem;
-}
-
-.intro .intro-text h3 {
-  font-weight: 400;
-}
-
-@media (min-width: 992px) {
-  .intro .intro-img {
-    width: 75%;
-    float: left;
-  }
-  .intro .intro-text {
-    right: 0;
-    width: 60%;
-    margin-top: 3rem;
-    position: absolute;
-  }
-  .intro .intro-text .intro-button {
-    width: 100%;
-    left: 0;
-    position: absolute;
-    bottom: -2rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .intro .intro-text {
-    width: 45%;
-  }
-}
-
 .cta {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -11100,20 +11065,41 @@ footer {
   display: inline-block;
 }
 
-.section-heading {
-  text-transform: uppercase;
+.intro {
+  position: relative;
 }
 
-.section-heading .section-heading-upper {
-  display: block;
-  font-size: 1rem;
-  font-weight: 300;
+.intro .intro-text {
+  background-color: #fff;
+  margin-bottom: 1rem;
 }
 
-.section-heading .section-heading-lower {
-  display: block;
-  font-size: 3rem;
-  font-weight: 100;
+.intro .intro-text h3 {
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  .intro .intro-img {
+    width: 60%;
+  }
+  .intro .intro-text {
+    width: 60%;
+    margin-top: 3rem;
+    right: 0;
+    position: absolute;
+  }
+  .intro .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro .intro-text {
+    width: 45%;
+  }
 }
 
 .homequote {
@@ -11181,6 +11167,57 @@ footer {
     max-width: 25%;
     margin-left: 25%;
   }
+}
+
+.about {
+  position: relative;
+}
+
+.about .right {
+  right: 0;
+}
+
+.about p {
+  font-size: 1rem;
+}
+
+.about .about-text {
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.about .about-text h3 {
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  .about .about-img {
+    width: 40%;
+  }
+  .about .about-text {
+    width: 70%;
+    margin-top: 3rem;
+    position: absolute;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about .about-text {
+    width: 70%;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-heading .about-heading-content {
+    margin-top: -5rem;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.about-heading .about-heading-img {
+  position: relative;
+  z-index: 0;
 }
 
 @media (min-width: 992px) {

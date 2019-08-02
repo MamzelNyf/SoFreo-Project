@@ -12,27 +12,42 @@
         include 'includes/nav.php';
         ?>
         <main>
-            <div class="row">
-                <div class="col">
-                    <div class="pic">
-                        <h1>Do you know So Freo?</h1> 
-                        <div class="bold">
-                            <p>Based in Fremantle, Western Australia, “So Freo Cuisine” focuses on providing fresh and healthy options for everyone.</p>                            
-                            <p>Our entreprise is environmentally conscious and aim to be 100% organic in the future.<br>
-                            So Freo is the creative and culinary work of Alex &amp; Fanny.</p>
-                        </div>  
+            <div class="pic">
+                <h1>Do you know So Freo?</h1> 
+                <div>
+                    <p>Based in Fremantle, Western Australia, “So Freo Cuisine” focuses on providing organic, fresh and healthy options for everyone.</p>                            
+                    <p>So Freo is the creative and culinary work of Alex &amp; Fanny.</p>
+                    <p class="text-left">Our entreprise is environmentally conscious, we source our organic ingredients locally, 
+                    <br>our packaging is printed in Perth on recycled paper with vegetable ink and 
+                    <br>the vaccum pack is recyclable, very soon fully COMPOSTABLE!</p>
+                </div>  
+            </div>
+            <div class="container">
+                <div class="row about mt-4">
+                    <div class="col text-right"> <img class="about-img img-fluid mb-3 mb-lg-0 rounded" src="img/alex2.jpg" alt="Alexandre Teissier cooking"></div>
+                    <div class="about-text text-center p-3 rounded animated fadeInDown">
+                        <h3 class="mb-4 section-heading">
+                        <span class="section-heading-upper text-black-50">Nomadic Chef</span>
+                        <span class="section-heading-lower">Alex</span>
+                        </h3>
+                        <p class="mb-3">"After studying Culinary Art in France and spending a decade as a travelling Chef, experiencing some of the best food the world has to offer, I settled in beautiful Freo six years ago.</p> 
+                        <p>Being an outdoor and adventure enthusiast with a passion for food, I always bake a “Veggie Paté” to take on hikes with my mates. Over the years it has become too good not to share it with you!</p>
+                        <p>I hope you enjoy it as much as we do!"</p>
+                        <p><em>Alex</em></p>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                
-                <div class="col col-md-one-half portrait"><img src="img/Alex.jpg" alt="Alexandre Teissier portrait"></div>
-                <div class="col col-md-one-half white">
-                    <h3>Alex, our nomadic Chef</h3>
-                    <p>"After studying Culinary Art in France and spending a decade as a travelling Chef, experiencing some of the best food the world has to offer, I settled in beautiful Freo six years ago.</p> 
-                    <p>Being an outdoor and adventure enthusiast with a passion for food, I always bake a “Veggie Paté” to take on hikes with my mates. Over the years it has become too good not to share it with you!</p>
-                    <p>I hope you enjoy it as much as we do!"</p>
-                    <p><em>Alex</em></p>
+                <div class="row about">
+                    <div class="col mt-md-5 pt-md-5"> <img class="about-img left img-fluid mb-3 mb-lg-0 rounded" src="img/fanny.jpg" alt="Fanny Lefert market"></div>
+                    <div class="about-text right text-center p-3  rounded">
+                        <h3 class="mb-4 section-heading">
+                        <span class="section-heading-upper text-black-50">Digital Foodie</span>
+                        <span class="section-heading-lower">Fanny</span>
+                        </h3>
+                        <p class="mb-3">"After travelling around Australia for 2 years, I've met Alex in the beautiful region of Margaret River while we were working at Cape Loge, Luxury lodge of Australia.</p> 
+                        <p>We travelled and hiked together for 1 year, sharing food, ideas and values! Back to Fremantle, I've started to study Webdesign and with my Graphic Designer background, we were ready to launch our project: So Freo.</p>
+                        <p>It's an adventure we are really happy to share with you!"</p>
+                        <p><em>Fanny</em></p>
+                    </div>
                 </div>
             </div>
         <?php include 'includes/footer.php'; ?>

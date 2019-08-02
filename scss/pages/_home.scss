@@ -22,40 +22,6 @@
   background-attachment: fixed;  
 }
 
-//white bloc overlapping img
-.intro {
-  position: relative;
-  .intro-text{
-    background-color:$white;
-    h3{font-weight: 400;}
-    margin-bottom:1rem;
-  }
-  @media (min-width: 992px) {
-    .intro-img {
-      width: 75%;
-      float: left;
-      
-    }
-    .intro-text {
-      right: 0;
-      width: 60%;
-      margin-top: 3rem;
-      position: absolute;
-      .intro-button {
-        width: 100%;
-        left: 0;
-        position: absolute;
-        bottom: -2rem;
-      }
-    }
-  }
-  @media (min-width: 1200px) {
-    .intro-text {
-      width: 45%;
-    }
-  }
-}
-
 //orange section at the bottom
 .cta {
   padding-top: 1rem;
@@ -85,18 +51,35 @@
       display:inline-block;
     }
   }
-//heading with bigger lower text
-.section-heading {
-  text-transform: uppercase;
-  .section-heading-upper {
-    display: block;
-    font-size: 1rem;
-    font-weight: 300;
+//white bloc overlapping img
+.intro {
+  position: relative;
+  .intro-text{
+    background-color:$white;
+    h3{font-weight: 400;}
+    margin-bottom:1rem;
   }
-  .section-heading-lower {
-    display: block;
-    font-size: 3rem;
-    font-weight: 100;
+  @media (min-width: 992px) {
+    .intro-img {
+      width: 60%;
+    }
+    .intro-text {
+      width: 60%;
+      margin-top: 3rem;
+      right:0;
+      position: absolute;
+      .intro-button {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem;
+      }
+    }
+  }
+  @media (min-width: 1200px) {
+    .intro-text {
+      width: 45%;
+    }
   }
 }
 
