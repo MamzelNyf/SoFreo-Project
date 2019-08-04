@@ -12,18 +12,24 @@
         include 'includes/nav.php';
         ?>
         <main>
-            <div class="pic">
+            <div class="pic px-3">
                 <h1>Do you know So Freo?</h1> 
                 <div>
                     <p>Based in Fremantle, Western Australia, “So Freo Cuisine” focuses on providing organic, fresh and healthy options for everyone.</p>                            
                     <p>So Freo is the creative and culinary work of Alex &amp; Fanny.</p>
-                    <p class="text-left">Our entreprise is environmentally conscious, we source our organic ingredients locally, 
-                    <br>our packaging is printed in Perth on recycled paper with vegetable ink and 
-                    <br>the vaccum pack is recyclable, very soon fully COMPOSTABLE!</p>
                 </div>  
             </div>
             <div class="container">
-                <div class="row about mt-4">
+                <div class="row mt-4 px-3">
+                    <div class="col-2 d-none d-md-inline-block ">
+                        <img src="img/recycled.svg" alt="recycle logo">
+                    </div>
+                    <div class="col white">
+                        <h3 class="text-left">Reduce, Recycle, Reuse</h3>
+                        <p>Our entreprise is environmentally conscious, we source our organic ingredients locally, our packaging is printed in Perth on recycled paper with vegetable ink and the vaccum pack is recyclable, very soon fully COMPOSTABLE!</p>
+                    </div>
+                </div>
+                <div class="row about mt-4 mb-5">
                     <div class="col text-right"> <img class="about-img img-fluid mb-3 mb-lg-0 rounded" src="img/alex2.jpg" alt="Alexandre Teissier cooking"></div>
                     <div class="about-text text-center p-3 rounded animated fadeInDown">
                         <h3 class="mb-4 section-heading">
@@ -37,7 +43,7 @@
                     </div>
                 </div>
                 <div class="row about">
-                    <div class="col mt-md-5 pt-md-5"> <img class="about-img left img-fluid mb-3 mb-lg-0 rounded" src="img/fanny.jpg" alt="Fanny Lefert market"></div>
+                    <div class="col my-md-5 pt-md-5"> <img class="about-img left img-fluid mb-3 mb-lg-0 rounded" src="img/fanny.jpg" alt="Fanny Lefert market"></div>
                     <div class="about-text right text-center p-3  rounded">
                         <h3 class="mb-4 section-heading">
                         <span class="section-heading-upper text-black-50">Digital Foodie</span>
@@ -51,4 +57,3 @@
                 </div>
             </div>
         <?php include 'includes/footer.php'; ?>
-   
