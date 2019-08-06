@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>So Freo - the Veggie Paté</title>
+		<title>So Freo - the Thai Veggie Paté</title>
 		<?php 
-		$meta = 'the recipe of the Original Veggie Paté';
+		$meta = 'the recipe of the Thai Veggie Paté';
 		include 'includes/meta.php';
 		?>
     </head>
@@ -13,32 +13,33 @@
         ?>
         <main>
             <div class="pic">
-                <h1>The Original Veggie Paté</h1> 
+                <h1>The Thai Veggie Paté</h1> 
                 <div class="bold">
-                    <p>This wholesome high-protein organic veggie-spread is perfect to add to your sandwich.</p>
+                    <p>This exotic, fragrant and high-protein vegetable spread will spice up your meals!</p>
                 </div>  
             </div>
             <br class="clearfloat">
             <section class="container">
                 <div class="row">
-                    <div class="col-md-1 col-lg-2"></div>
-                    <div class="col-12 col-md-4 mb-3"><img src="img/pate-plancha.jpg" class="rounded animated fadeIn" alt="Veggie Paté"></div>
-                    <div class="col-12 col-md-6 col-lg-5 article-block">
-                        <p> Choose your favourite slice of bread, add some fresh tomatoes, vegan mayo, sprouts... and “Bon appétit”!</p>
-                        <p>For school lunch, picnic or your next outdoor adventure. </p>  
+                    <div class="col-12 col-md-6 mb-3 product"><img src="img/toast-thai.jpg" class="rounded animated fadeIn" alt="Veggie Paté"></div>
+                    <div class="col-12 col-md-6 article-block">
+                        <p> Inspired by our travels, we have added  to the Original Veggie Pate fresh lemongrass and kaffir lime leaves, hot chillies and creamy coconut to balance it all!</p>
                         <p>Vegan and Gluten Free, it is your healthy choice.</p> 
                         <h3 class=" text-left">Organic Ingredients</h3>
                         <ul class="white-text">
                             <li>Sweet potatoes</li>
                             <li>Carrots</li> 
-                            <li>Onions</li>
                             <li>Sunflower seeds</li> 
-                            <li>Pumpkin Seeds</li>
+                            <li>Lemongrass</li>
+                            <li>Coconut cream</li>
+                            <li>Kaffir lime leaves</li>
+                            <li>Chili</li>
                             <li>Buckwheat flour</li>
                             <li>Sunflower oil</li>
                             <li>Savoury yeast</li>
                             <li>Apple cider vinegar</li>
                             <li>Tamari</li>
+                            <li>Garlic</li>
                         </ul>
                     </div>
                 </div>

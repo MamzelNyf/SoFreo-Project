@@ -41,14 +41,20 @@ main {
 a {
   color: $primary;
   text-decoration: none;
-}
+} 
+a:hover{
+    color:$white!important;
+  }
 
 //Basic styles for text
-
 p {
-font-size: 1.2em; 
+font-size: 1.1rem; 
 line-height: 1.2;
-font-weight: 500;}
+font-weight: 500;
+@include media-breakpoint-up(md){
+  font-size: 0.9rem; 
+}
+}
 
 
 //Basic styles for titles
@@ -56,15 +62,15 @@ font-weight: 500;}
 h1 {
 font-size: 2em;
 font-weight: 200;
-margin-top: 130px; 
 margin-bottom:20px!important;
 color: $back-color; 
 @include media-breakpoint-up(md) { font-size: 2.2em; }
-@include media-breakpoint-up(lg) { margin: 150px 0 0; font-size: 2.4em;}
+@include media-breakpoint-up(lg) { font-size: 2.4em;}
 }
+
 h2 {
-font-family: MondayBay;
-font-size: 2em;
+font-family: 'MondayBay';
+font-size: 3rem;
 font-weight: 200;
 color: $brand-color; 
 @include media-breakpoint-up(md) { margin-bottom: 16px; }
@@ -76,7 +82,7 @@ h3 {
   color: $brand-color;
   text-align: center;
   padding: 15px 0;
-  font-size: 1.5em; }
+  font-size: 1.2rem; }
 
 h4 {
   color: $brand-color;
@@ -86,8 +92,13 @@ h4 {
 //Basic styles for list
 
 ol, ul {
-    list-style: none; 
     line-height: 1.4;
+    margin:0!important;
+    li{
+      font-size:1rem;
+      @include media-breakpoint-up(md) {
+        font-size: 0.9rem;}
+    }
   }  
 
 // Basic styles for positioning
@@ -106,11 +117,10 @@ ol, ul {
   img {
     width: 100%;
     vertical-align: middle;
-    padding: 5px; 
   }
 }
 
-.white {
+.article-block {
   margin-bottom: 20px; 
   p {
     color: $text-color;}
@@ -119,30 +129,26 @@ ol, ul {
 .pic {
   background-image: url("../img/texture-mobile.jpg");
   background-size: cover;
-  padding: 20px 0 30px 0;
+  padding: 60px 1rem 30px;
   text-align: center;
   // margin: 0 5px 5px;
-  min-height: 30vh; 
-  @include media-breakpoint-up(md) {background-image: url("../img/texture.jpg"); }
+  @include media-breakpoint-up(md) {
+    background-image: url("../img/texture.jpg");   
+    padding-top: 100px; 
+    p{font-size: 1rem;}}
   p{
     padding: 5px;
+    font-size: 1.1rem;
   }
-}
-
-.col-lg-one-fourth {
-  width: picture-width(12);
-  float: left;
-  flex-basis: auto;
-  @include media-breakpoint-up(md) { width: 50%; float: left; } 
-  @include media-breakpoint-up(lg) { width: 25%; float: left; }
+  a{
+    color:$white;
+  }
 }
 
 .cover{
   height: 100%;
   object-fit: cover;
 }
-
-
 
 //heading with bigger lower text
 .section-heading {
@@ -154,7 +160,10 @@ ol, ul {
   }
   .section-heading-lower {
     display: block;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 100;
   }
+}
+.wow{
+  visibility: hidden;
 }

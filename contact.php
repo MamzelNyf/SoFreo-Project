@@ -89,8 +89,7 @@ if(isset($_POST['submit'])){
                 <div class="bold">
                     <br> 
                     <p>We always want to hear from you, for some ideas, to improve our products or simply to say Hello! </p>
-                    <br>   
-                    <p>You want to sell our products in your shop or use it in your cafe? Contact us, we will be happy to give you more information! </p>
+                    <p>You want to sell our products in your shop or use it in your cafe? <br>Contact us, we will be happy to give you more information! </p>
                 </div> 
             </div>
             <br class="clearfloat">
@@ -108,7 +107,7 @@ if(isset($_POST['submit'])){
                                 <div class="form-group row justify-content-center"><label class="col-sm-2 col-form-label text-white"for="message">Message*</label><div class="col-sm-5"><textarea class="form-control" name="message" id="message" rows="5" required><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea></div></div>
                                 <!-- Google Recaptcha box -->
                                 <div class="row justify-content-center"><div class=col-sm-2></div><div class="col-sm-5"><div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div></div></div>
-                                <div class="row justify-content-center"><div class=col-sm-2></div><div class="col-sm-5 "><input id="submit" class="btn btn-primary" type="submit" name="submit" value="Send"></div></div>
+                                <div class="row justify-content-center"><div class=col-sm-2></div><div class="col-sm-5 "><input id="submit" class="btn" type="submit" name="submit" value="Send"></div></div>
                             </fieldset>
                         </form>
                 </section>

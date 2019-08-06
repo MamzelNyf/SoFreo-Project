@@ -15,15 +15,16 @@
             <div class="pic">
                 <h1>Veggie Paté &amp; Co</h1>
                 <div>
-                <p>We are excited to share with you our new products : the Thai Veggie Paté and the Eggplant Jerky! </p>
-                <p>New treats to add to your favorite vegan meal! <br>Stay connected!</p>
+                <p>We are excited to share with you our products : the Original Veggie Paté and the Thai Veggie Paté!</p>
+                <p>Soon you find new treats to add to your favorite vegan meal! <br>Stay connected!</p>
                 </div>
             </div>
-            <div class="container-fluid">
+            <br class="clearfloat">
+            <div class="container">
                 <section class="row mx-md-3">
-                    <div class="col-12 col-md-4 text-center"><h3>Veggie Paté</h3><a href="veggie-pate.php"><img src="img/veggie-pate-raw.jpg" alt="Veggie Paté"></a></div>
-                    <div class="col-12 col-md-4 text-center"><h3>Thai Veggie Paté</h3><a href=""><img src="img/thai-veggie-pate.jpg" alt="Thai Veggie Paté"></a></div>
-                    <div class="col-12 col-md-4 text-center"><h3>Coming Soon</h3><a href=""><img src="img/coming-soon.svg" alt="Coming Soon"></a></div>
+                    <div class="col-12 col-md-4 text-center"><h3>Veggie Paté</h3><a href="veggie-pate.php"><img src="img/original-veggie-pate.jpg" class="animated wow fadeInUp rounded" alt="Veggie Paté"></a></div>
+                    <div class="col-12 col-md-4 text-center"><h3>Thai Veggie Paté</h3><a href="thai-pate.php"><img src="img/thai-veggie-pate.jpg" class="animated wow fadeInUp rounded" data-wow-delay="0.2s" alt="Thai Veggie Paté"></a></div>
+                    <div class="col-12 col-md-4 text-center"><h3>Be patient !</h3><img src="img/coming-soon.svg" class="wow rounded" alt="Coming Soon"></div>
                 </section>
             </div>
         <?php include 'includes/footer.php'; ?>

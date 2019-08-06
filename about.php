@@ -21,17 +21,17 @@
             </div>
             <div class="container">
                 <div class="row mt-4 px-3">
-                    <div class="col-2 d-none d-md-inline-block ">
-                        <img src="img/recycled.svg" alt="recycle logo">
+                    <div class="col-2 d-none d-md-inline-block view overlay">
+                        <img src="img/recycled.svg" class="img-fluid pt-2" id="recycle" alt="recycle logo">
                     </div>
-                    <div class="col white">
+                    <div class="col article-block">
                         <h3 class="text-left">Reduce, Recycle, Reuse</h3>
-                        <p>Our entreprise is environmentally conscious, we source our organic ingredients locally, our packaging is printed in Perth on recycled paper with vegetable ink and the vaccum pack is recyclable, very soon fully COMPOSTABLE!</p>
+                        <p>Our entreprise is environmentally conscious, we source our organic ingredients locally, our packaging is printed in Perth on recycled paper with vegetable ink by <a href="https://www.environmentalprintingco.com/" target="_blank">the Environmental Printing Company</a> and the vaccum pack is recyclable, very soon fully COMPOSTABLE!</p>
                     </div>
                 </div>
-                <div class="row about mt-4 mb-5">
-                    <div class="col text-right"> <img class="about-img img-fluid mb-3 mb-lg-0 rounded" src="img/alex2.jpg" alt="Alexandre Teissier cooking"></div>
-                    <div class="about-text text-center p-3 rounded animated fadeInDown">
+                <div class="row about mt-4 mb-md-5">
+                    <div class="col text-right"> <img class="about-img img-fluid mb-3 mb-lg-0 rounded animated fadeInRight delay-1s" src="img/alex2.jpg" alt="Alexandre Teissier cooking"></div>
+                    <div class="about-text text-center p-3 rounded animated fadeInLeft delay-1s">
                         <h3 class="mb-4 section-heading">
                         <span class="section-heading-upper text-black-50">Nomadic Chef</span>
                         <span class="section-heading-lower">Alex</span>
@@ -43,8 +43,8 @@
                     </div>
                 </div>
                 <div class="row about">
-                    <div class="col my-md-5 pt-md-5"> <img class="about-img left img-fluid mb-3 mb-lg-0 rounded" src="img/fanny.jpg" alt="Fanny Lefert market"></div>
-                    <div class="about-text right text-center p-3  rounded">
+                    <div class="col my-md-5 pt-md-5"> <img class="about-img left img-fluid mb-3 mb-lg-0 rounded wow animated fadeInLeft" src="img/fanny.jpg" alt="Fanny Lefert market"></div>
+                    <div class="about-text right text-center p-3 rounded wow animated fadeInRight">
                         <h3 class="mb-4 section-heading">
                         <span class="section-heading-upper text-black-50">Digital Foodie</span>
                         <span class="section-heading-lower">Fanny</span>

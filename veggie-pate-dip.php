@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>So Freo - Veggie Paté Dip</title>
+		<?php 
+		$meta = 'how to make your perfect Veggie Paté Dip';
+		include 'includes/meta.php';
+		?>
+    </head>
+    <body>
+        <?php 
+        include 'includes/nav.php';
+        ?>
+        <main>
+            <div class="pic">
+                <h1>Veggie Paté Dip</h1> 
+                <div>
+                    <p>To share with friends, at a picnic or a party, with kombucha or a glass of wine.</p>
+                </div>  
+            </div>
+            <br class="clearfloat">
+            <section class="container">
+                <div class="row">
+                <div class="col-md-1 col-lg-2"></div>   
+                    <div class="col-12 col-md-4 mb-3"><img src="img/veggie-pate-dip.jpg" class="rounded animated fadeIn" alt="Veggie Paté"></div>
+                    <div class="col-12 col-md-6 col-lg-5  article-block">
+                        <h3 class="text-left pt-0">Ingredients for this smooth dip</h3>
+                        <ul class="white-text">
+                            <li>75g of your favourite vegan yoghourt or mayonnaise</li>
+                            <br>
+                            <li>100g of the Original Veggie or Thai Paté</li> 
+                            <br>
+                            <li>Fresh herbs from your garden</li> 
+                            <br>
+                            <li>Add some croutons or crackers to dip!</li>
+                            <br>
+                        </ul>
+                        <p><em>Bon appétit :)</em></p>
+                    </div>
+                </div>
+            </section>
+        <?php include 'includes/footer.php'; ?>

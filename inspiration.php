@@ -15,14 +15,19 @@
             <div class="pic">
                 <h1>Let's share it all!</h1>
                 <div class="bold">
-                    <p>We wanted to create some recipes to use with the Veggie Paté. </p>
-                    <p>Don't hesitate to share your idea with us on Facebook or Instagram!!!</p>                           
+                    <p>We wanted to create and share with you some recipes to use with the Veggie Paté. </p>
+                    <p>If you have any yummy idea to accomodate it, don't hesitate to share your idea with us on <a href="https://www.facebook.com/sofreo" target="_blank">Facebook</a> or <a href="https://www.instagram.com/sofreocuisine" target="_blank">Instagram</a>!!!</p>                           
                 </div> 
             </div>
-            <section class="row mx-md-3">
-                <div class="col col-lg-one-fourth centertext"><h3>Veggie Paté Sandwich</h3><a href="veggie-pate-sanwich.php"><img src="img/veggie-pate-sandwich.jpg" alt="Veggie Pate Sandwich"></a></div>
-                <div class="col col-lg-one-fourth centertext"><h3>Veggie Paté Banh Mi</h3><a href=""><img src="img/veggie-pate-banh-mi.jpg" alt="Veggie Pate Banh Mi @Manna"></a></div>
-                <div class="col col-lg-one-fourth centertext"><h3>Veggie Paté on Crackers</h3><a href=""><img src="img/veggie-pate-cracker.jpg" alt="Veggie Pate on Crackers"></a></div>
-                <div class="col col-lg-one-fourth centertext"><h3>Coming Soon</h3><a href=""><img src="img/coming-soon.svg" alt="Coming Soon!"></a></div>
-            </section>
+            <br class="clearfloat">
+            <div class="container">
+                <section class="row mx-md-3">
+                    <div class="col-12 col-md-4 text-center"><h3>Veggie Paté Sandwich</h3><a href="veggie-pate-sanwich.php"><img src="img/veggie-pate-sandwich.jpg" class="animated wow fadeInUp" alt="Veggie Paté Sandwich"></a></div>
+                    <div class="ccol-12 col-md-4 text-center"><h3>Veggie Paté Banh Mi</h3><a href="veggie-pate-banh-mi.php"><img src="img/veggie-pate-banh-mi.jpg" class="animated wow fadeInUp" data-wow-delay="0.2s" alt="Veggie Paté Banh Mi @Manna"></a></div>
+                    <div class="col-12 col-md-4 text-center"><h3>Paté on Crackers</h3><a href="veggie-pate-cracker.php"><img src="img/veggie-pate-cracker.jpg" class="animated wow fadeInUp" data-wow-delay="0.4s" alt="Veggie Paté on Crackers"></a></div>
+                    <div class="col-12 col-md-4 text-center mt-md-4"><h3>Veggie Paté Dip</h3><a href="veggie-pate-dip.php"><img src="img/veggie-pate-dip.jpg" class="animated wow fadeInUp" alt="Veggie Paté Dip"></a></div>
+                    <div class="ccol-12 col-md-4 text-center mt-md-4"><h3>Raw Pasta with Veggie Paté</h3><a href="raw-pasta-veggie-pate.php"><img src="img/raw-pasta-veggie.jpg" class="animated wow fadeInUp" data-wow-delay="0.2s" alt="Raw Pasta with Veggie Paté"></a></div>
+                    <div class="col-12 col-md-4 text-center mt-md-4"><h3>Veggie Paté Wrap</h3><a href="veggie-pate-wrap.php"><img src="img/veggie-pate-wrap.jpg" class="animated wow fadeInUp" data-wow-delay="0.4s" alt="Veggie Paté Wrap"></a></div>
+                </section>
+            </div>
         <?php include 'includes/footer.php'; ?>
