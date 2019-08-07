@@ -16,10 +16,10 @@
               <div class="homequote d-none d-md-block">
                 <span class="quotation text-black-50 animated wow slideInRight">"</span>
                 <div>
-                  <span class="animated wow slideInRight">You don't have to eat</span>
-                  <span class="heading-lower wow animated slideInRight" data-wow-delay="0.2s">Less</span>
-                  <span class="animated wow slideInRight" data-wow-delay="0.3s">You just have to eat</span>
-                  <span class="heading-lower animated wow fadeInRight" data-wow-delay="0.4s">Right</span>
+                  <span class="animated wow slideInRight">At <h1>SoFreo</h1>, we cook with</span>
+                  <span class="heading-lower wow animated slideInRight" data-wow-delay="0.2s">Organics Veggies</span>
+                  <span class="animated wow slideInRight" data-wow-delay="0.3s">To provide you a tasty and  </span>
+                  <span class="heading-lower animated wow fadeInRight" data-wow-delay="0.4s">Healthy Product</span>
                 </div>
               </div>
             </div>
@@ -29,9 +29,9 @@
             <section class="page-section clearfix">
                 <div class="container">
                     <div class="intro">
-                        <div class="intro-text left-0 text-center p-5 rounded order-md-2 animated wow fadeInRight">
+                        <div class="intro-text left-0 text-center p-4 rounded order-md-2 animated wow fadeInRight">
                           <h3 class="mb-4 section-heading">
-                          <span class="section-heading-upper text-black-50">Organic, Plant-based and </span>
+                          <span class="section-heading-upper">Organic, Plant-based and </span>
                           <span class="section-heading-lower">delicious!</span>
                           </h3>
                           <p class="mb-3">So Freo is locally based and focuses on organic and locally sourced ingredients from WA. 
@@ -42,7 +42,11 @@
                                 <a class="btn btn-primary btn-xl" href="products.php">Our products</a>
                             </div>
                         </div>
-                        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded order-md-1 animated wow fadeInLeft" src="img/max.jpg" alt="Max eating Veggie Pate on the Ridge walk">
+                          <figure>
+                            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded order-md-1 animated wow fadeInLeft" srcset="img/max-sm.jpg 600w, img/max-md.jpg 900w, img/max-lg.jpg 1440w" src="img/max-md.jpg" type=“image/jpeg” alt="Max eating Veggie Pate on the Ridge walk">
+                            <figcaption class="text-white mt-2">"Max enjoyed a nice<a href="veggie-pate-sandwich.php"> Veggie Paté Sandwich</a> on the Sterling Ranges Ridge Walk"</figcaption>
+                          </figure>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -52,7 +56,7 @@
       <div class="row ">
         <div class="col-xl-9 mx-auto">
           <div class="text-center cta-inner rounded animated wow fadeInUp">
-            <h3 class="mb-2 section-heading "><span class="section-heading-upper text-black-50">Give it a</span> <span class="section-heading-lower">try!</span></h3>
+            <h3 class="mb-2 section-heading "><span class="section-heading-upper">Give it a</span> <span class="section-heading-lower">try!</span></h3>
             <p class="mb-4">Vegan or not, Gluten intolerant or not, young or old, the Veggie Paté is for you.
             <br>When we decided to elaborate its recipe, we had in mind it has to be good AND nutritious, <br>we wanted to add the best in it, organic veggies, a yummy taste and a lot of love!
             <br>We hope you will really enjoy to share it!</p>

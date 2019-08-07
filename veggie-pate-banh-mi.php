@@ -22,24 +22,17 @@
             <section class="container">
                 <div class="row">
                 <div class="col-md-1 col-lg-2"></div>   
-                    <div class="col-12 col-md-4 mb-3"><img src="img/veggie-pate-banh-mi.jpg" class="rounded animated fadeIn" alt="Veggie Paté"></div>
+                    <div class="col-12 col-md-4 mb-3"><img src="img/veggie-pate-banh-mi.jpg" class="rounded animated fadeIn" alt="Veggie Paté Banh Mi"></div>
                     <div class="col-12 col-md-6 col-lg-5  article-block">
                         <h3 class="text-left pt-0">Ingredients for this crunchy sandwich</h3>
                         <ul class="white-text">
                             <li>A nice piece of baguette</li>
-                            <br>
                             <li>115g of the Original Veggie Paté</li> 
-                            <br>
                             <li>Siracha mayonnaise</li>
-                            <br>
                             <li>Fermented or grated carrots</li> 
-                            <br>
                             <li>Fresh cucumbers</li>
-                            <br>
                             <li>Pickled red onions</li>
-                            <br>
                             <li>Vietnamese mint and coriander</li> 
-                            <br>
                             <li>Mizuna leaves</li>
                             <br>
                         </ul>

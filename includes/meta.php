@@ -2,7 +2,7 @@
 <meta name="description" content="<?php include 'helpers.php'; htmlout($meta); ?>">
 <meta name="keywords" content="Vegetarian spread, vegan pate, organic spread, gluten free spreadable, Fremantle, Perth, Western Australia source, lactose free">
 <meta name="author" content="Fanny L.">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name='viewport'content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 <meta name="geo.region" content="AU" />
 <meta name="geo.placename" content="South Fremantle" />
 <meta name="geo.position" content="-32.065771;115.752666" />
@@ -18,8 +18,7 @@
 <meta name="google-site-verification" content="KwCbSwVnWKh9mACY80w6uD6a-kjhpGaiLqDfPRfmuRw" />
 
 <!-- Custom fonts -->
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap" rel="stylesheet">
 
 <!-- Custom styles for this template -->
 <link href="css/main.min.css" rel="stylesheet">

@@ -16,8 +16,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
-  background-image: url("../img/woman.jpg");
-  background-attachment: fixed;  
+  background-image: url("../img/woman-sm.jpg");
+  @include media-breakpoint-up(md) { background-image: url("../img/woman-md.jpg"); }
+  @include media-breakpoint-up(lg) { background-image: url("../img/woman-lg.jpg"); }
+
 }
 
 //orange section at the bottom
@@ -52,19 +54,23 @@
 //white bloc overlapping img
 .intro {
   position: relative;
+  .intro-img {
+      width: 100%;
+    }
   .intro-text{
     background-color: rgba(255,255,255,.85);
     h3{font-weight: 400;}
     margin-bottom:1rem;
     z-index:1;
+    
   }
-  @media (min-width: 992px) {
+  @include media-breakpoint-up(md) { 
     .intro-img {
       width: 60%;
     }
     .intro-text {
       width: 60%;
-      margin-top: 3rem;
+      margin-top: 1rem;
       right:0;
       position: absolute;
       .intro-button {
@@ -75,7 +81,7 @@
       }
     }
   }
-  @media (min-width: 1200px) {
+  @include media-breakpoint-up(lg) {
     .intro-text {
       width: 45%;
     }
@@ -86,21 +92,30 @@
   position: absolute;
   top: 20%;
   right: 10%; 
+  h1{
+    display: inline-block;
+    font-family: 'MondayBay',sans-serif;
+    text-transform: capitalize;
+    margin-bottom:-30px!important;
+    font-size:3.2rem;
+    color:#212529;
+  }
   span{
     display: block;
+    text-align: right;
   }
   .heading-lower {
-    font-size: 4rem;
-    font-family: 'Montserrat', sans-serif;
-    margin: -10px 0 10px;
-    text-align: right;
+    font-size: 1.6rem;
+    font-family: 'Oswald', sans-serif;
+    margin: -7px 0 10px;
     text-transform: lowercase;
+    color:$primary;
 
   }
   .quotation{
     font-size:6rem;
     position: absolute;
-    left:-20%;
-    top:-25%;
+    left: -3%;
+    top: -15%;
   }
 }

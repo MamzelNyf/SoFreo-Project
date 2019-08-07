@@ -27,19 +27,12 @@
                         <h3 class="text-left pt-0">Ingredients for this amazing veggie pasta dish</h3>
                         <ul class="white-text ">
                             <li>150g of raw zucchini pasta</li>
-                            <br>
                             <li>115g of the Original Veggie Paté</li> 
-                            <br>
                             <li>Siracha mayonnaise</li>
-                            <br>
                             <li>Fermented or grated carrots</li> 
-                            <br>
                             <li>Fresh cucumbers</li>
-                            <br>
                             <li>Pickled red onions</li>
-                            <br>
                             <li>Vietnamese mint and coriander</li> 
-                            <br>
                             <li>Mizuna leaves</li>
                             <br>
                         </ul>

@@ -29,7 +29,7 @@
                         <p>Our entreprise is environmentally conscious, we source our organic ingredients locally, our packaging is printed in Perth on recycled paper with vegetable ink by <a href="https://www.environmentalprintingco.com/" target="_blank">the Environmental Printing Company</a> and the vaccum pack is recyclable, very soon fully COMPOSTABLE!</p>
                     </div>
                 </div>
-                <div class="row about mt-4 mb-md-5">
+                <div class="row about mt-4 mb-lg-5">
                     <div class="col text-right"> <img class="about-img img-fluid mb-3 mb-lg-0 rounded animated fadeInRight delay-1s" src="img/alex2.jpg" alt="Alexandre Teissier cooking"></div>
                     <div class="about-text text-center p-3 rounded animated fadeInLeft delay-1s">
                         <h3 class="mb-4 section-heading">
@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="row about">
-                    <div class="col my-md-5 pt-md-5"> <img class="about-img left img-fluid mb-3 mb-lg-0 rounded wow animated fadeInLeft" src="img/fanny.jpg" alt="Fanny Lefert market"></div>
+                    <div class="col my-lg-5 pt-lg-5"> <img class="about-img left img-fluid mb-3 mb-lg-0 rounded wow animated fadeInLeft" src="img/fanny.jpg" alt="Fanny Lefert market"></div>
                     <div class="about-text right text-center p-3 rounded wow animated fadeInRight">
                         <h3 class="mb-4 section-heading">
                         <span class="section-heading-upper text-black-50">Digital Foodie</span>

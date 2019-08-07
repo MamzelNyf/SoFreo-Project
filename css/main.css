@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.map iframe, .privacy {
+.map iframe {
   width: 100%;
   margin: auto;
   padding: 5px;
@@ -22406,7 +22406,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'MondayBay';
+  font-family: 'MondayBay', sans-serif;
   font-size: 3rem;
   font-weight: 200;
   color: #e6a756;
@@ -22452,18 +22452,6 @@ ol li, ul li {
   }
 }
 
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.none {
-  float: none;
-}
-
 .inline {
   display: inline-block !important;
 }
@@ -22482,7 +22470,7 @@ ol li, ul li {
 }
 
 .pic {
-  background-image: url("../img/texture-mobile.jpg");
+  background-image: url("../img/texture-sm.jpg");
   background-size: cover;
   padding: 60px 1rem 30px;
   text-align: center;
@@ -22490,11 +22478,17 @@ ol li, ul li {
 
 @media (min-width: 768px) {
   .pic {
-    background-image: url("../img/texture.jpg");
+    background-image: url("../img/texture-md.jpg");
     padding-top: 100px;
   }
   .pic p {
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .pic {
+    background-image: url("../img/texture-lg.jpg");
   }
 }
 
@@ -22521,6 +22515,7 @@ ol li, ul li {
   display: block;
   font-size: 1rem;
   font-weight: 300;
+  color: #000;
 }
 
 .section-heading .section-heading-lower {
@@ -22531,6 +22526,20 @@ ol li, ul li {
 
 .wow {
   visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .no-animation {
+    /*CSS transitions*/
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    animation: none !important;
+  }
 }
 
 @font-face {
@@ -22617,8 +22626,19 @@ footer ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../img/woman.jpg");
-  background-attachment: fixed;
+  background-image: url("../img/woman-sm.jpg");
+}
+
+@media (min-width: 768px) {
+  .parallax {
+    background-image: url("../img/woman-md.jpg");
+  }
+}
+
+@media (min-width: 992px) {
+  .parallax {
+    background-image: url("../img/woman-lg.jpg");
+  }
 }
 
 .cta {
@@ -22657,6 +22677,10 @@ footer ul {
   position: relative;
 }
 
+.intro .intro-img {
+  width: 100%;
+}
+
 .intro .intro-text {
   background-color: rgba(255, 255, 255, 0.85);
   margin-bottom: 1rem;
@@ -22667,13 +22691,13 @@ footer ul {
   font-weight: 400;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .intro .intro-img {
     width: 60%;
   }
   .intro .intro-text {
     width: 60%;
-    margin-top: 3rem;
+    margin-top: 1rem;
     right: 0;
     position: absolute;
   }
@@ -22685,7 +22709,7 @@ footer ul {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .intro .intro-text {
     width: 45%;
   }
@@ -22697,23 +22721,33 @@ footer ul {
   right: 10%;
 }
 
+.homequote h1 {
+  display: inline-block;
+  font-family: 'MondayBay',sans-serif;
+  text-transform: capitalize;
+  margin-bottom: -30px !important;
+  font-size: 3.2rem;
+  color: #212529;
+}
+
 .homequote span {
   display: block;
+  text-align: right;
 }
 
 .homequote .heading-lower {
-  font-size: 4rem;
-  font-family: 'Montserrat', sans-serif;
-  margin: -10px 0 10px;
-  text-align: right;
+  font-size: 1.6rem;
+  font-family: 'Oswald', sans-serif;
+  margin: -7px 0 10px;
   text-transform: lowercase;
+  color: #e6a756;
 }
 
 .homequote .quotation {
   font-size: 6rem;
   position: absolute;
-  left: -20%;
-  top: -25%;
+  left: -3%;
+  top: -15%;
 }
 
 @media (min-width: 992px) {
@@ -22725,34 +22759,28 @@ footer ul {
 .map iframe {
   min-height: 480px;
   border: none;
+  max-width: 100vw;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .privacy {
   color: white;
-  text-align: left;
-  padding-left: 15px;
+}
+
+.privacy p {
+  font-weight: 300;
+}
+
+.privacy ul li {
+  margin-bottom: 15px !important;
+  font-size: 1.1rem !important;
 }
 
 @media (min-width: 768px) {
-  .privacy {
-    width: 75%;
-    padding-left: 50px;
+  .privacy ul li {
+    font-size: 0.9rem !important;
   }
-}
-
-.privacy ul {
-  list-style: disc;
-  margin-left: 15px;
-  padding-right: 2px;
-}
-
-.privacy li {
-  font-size: 1.1em;
-  padding-right: 15px;
-}
-
-.privacy a {
-  border-bottom: #e6a756 solid 1px;
 }
 
 @media (min-width: 992px) {

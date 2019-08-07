@@ -1,6 +1,6 @@
 <header>
    <div class="navbar navbar-dark navbar-expand-md ">
-      <a href="index.php" class="nav-link py-0 px-0 px-md-1 "><img src="img/sofreo-logo-white.svg" width="80px"></a>
+      <a href="index.php" class="nav-link py-0 px-0 px-md-1 "><img src="img/sofreo-logo-white.svg" alt="Logo So Freo" width="80px"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
       </button>
