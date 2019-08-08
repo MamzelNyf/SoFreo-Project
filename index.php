@@ -14,13 +14,14 @@
         <main>
             <div class="parallax section-heading">
               <div class="homequote d-none d-md-block">
-                <span class="quotation text-black-50 animated wow slideInRight">"</span>
+                <span class="mark-start text-black-50 animated fadeIn">"</span>
                 <div>
                   <span class="animated wow slideInRight">At <h1>SoFreo</h1>, we cook with</span>
                   <span class="heading-lower wow animated slideInRight" data-wow-delay="0.2s">Organics Veggies</span>
                   <span class="animated wow slideInRight" data-wow-delay="0.3s">To provide you a tasty and  </span>
-                  <span class="heading-lower animated wow fadeInRight" data-wow-delay="0.4s">Healthy Product</span>
+                  <span class="heading-lower wow animated fadeInRight" data-wow-delay="0.4s">Healthy Product</span>
                 </div>
+                <span class="mark-end text-black-50 animated fadeIn">"</span>
               </div>
             </div>
             <div class="bloc">
@@ -29,7 +30,7 @@
             <section class="page-section clearfix">
                 <div class="container">
                     <div class="intro">
-                        <div class="intro-text left-0 text-center p-4 rounded order-md-2 animated wow fadeInRight">
+                        <div class="intro-text left-0 text-center p-4 pb-5 rounded order-md-2 animated wow fadeInRight">
                           <h3 class="mb-4 section-heading">
                           <span class="section-heading-upper">Organic, Plant-based and </span>
                           <span class="section-heading-lower">delicious!</span>

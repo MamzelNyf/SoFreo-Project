@@ -30,10 +30,10 @@
                     </div>
                 </div>
                 <div class="row about mt-4 mb-lg-5">
-                    <div class="col text-right"> <img class="about-img img-fluid mb-3 mb-lg-0 rounded animated fadeInRight delay-1s" src="img/alex2.jpg" alt="Alexandre Teissier cooking"></div>
-                    <div class="about-text text-center p-3 rounded animated fadeInLeft delay-1s">
+                    <div class="col text-right"> <img class="about-img img-fluid mb-3 mb-lg-0 rounded wow animated fadeInRight" src="img/alex2.jpg" alt="Alexandre Teissier cooking"></div>
+                    <div class="about-text text-center p-3 rounded wow animated fadeInLeft">
                         <h3 class="mb-4 section-heading">
-                        <span class="section-heading-upper text-black-50">Nomadic Chef</span>
+                        <span class="section-heading-upper">Nomadic Chef</span>
                         <span class="section-heading-lower">Alex</span>
                         </h3>
                         <p class="mb-3">"After studying Culinary Art in France and spending a decade as a travelling Chef, experiencing some of the best food the world has to offer, I settled in beautiful Freo six years ago.</p> 
@@ -43,10 +43,10 @@
                     </div>
                 </div>
                 <div class="row about">
-                    <div class="col my-lg-5 pt-lg-5"> <img class="about-img left img-fluid mb-3 mb-lg-0 rounded wow animated fadeInLeft" src="img/fanny.jpg" alt="Fanny Lefert market"></div>
+                    <div class="col my-lg-5 pt-lg-5"> <img class="about-img left img-fluid mb-3 mb-lg-0 rounded wow animated fadeInLeft" src="img/fanny.jpg" alt="Fanny Lefert at the market"></div>
                     <div class="about-text right text-center p-3 rounded wow animated fadeInRight">
                         <h3 class="mb-4 section-heading">
-                        <span class="section-heading-upper text-black-50">Digital Foodie</span>
+                        <span class="section-heading-upper">Digital Foodie</span>
                         <span class="section-heading-lower">Fanny</span>
                         </h3>
                         <p class="mb-3">"After travelling around Australia for 2 years, I've met Alex in the beautiful region of Margaret River while we were working at Cape Loge, Luxury lodge of Australia.</p> 

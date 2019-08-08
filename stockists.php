@@ -15,7 +15,7 @@
             <div class="pic">
                 <h1>Where to find our products? </h1>
                 <div class="bold">
-                    <p>You will here for all the amazing places where to buy and/or taste the Veggie Paté!</p>
+                    <p>You will discover here for all the amazing places where to buy and/or taste the Veggie Paté!</p>
                 </div>
             </div>
             <br class="clearfloat">
@@ -27,9 +27,9 @@
                         <br>You will find all the events, tastings and markets on our Calendar!</p>
                         <h3>Too Far? Buy online!</h3>
                         <p>With Perth Organics, add the Veggie Paté to your box of organic and local products and get it delivered to your place! </p>
-                        <ul>
-                            <li><a href="https://www.perthorganics.com/vegpate230g" target="_blank">Veggie Paté</a><br></li>
-                            <li><a href="https://www.perthorganics.com/veggie-pate-THAI-so-freo-230g" target="_blank">Thai Veggie Paté</a></li>
+                        <ul class="text-white">
+                            <li>Add some <a href="https://www.perthorganics.com/vegpate230g" target="_blank">Veggie Paté</a> to your basket<br></li>
+                            <li>I prefer to order the tasty<a href="https://www.perthorganics.com/veggie-pate-THAI-so-freo-230g" target="_blank">Thai Veggie Paté</a>!</li>
                         </ul>
                     </div>
                     <div class="col-12 col-md-4"><img src="img/market.jpg" class="cover animated fadeIn rounded" alt="So Freo Market"></div>

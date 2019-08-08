@@ -32,7 +32,7 @@
                             <li>Add some croutons or crackers to dip!</li>
                             <br>
                         </ul>
-                        <p><em>Bon appétit :)</em></p>
+                        <p><em>Bon appétit :&#41;</em></p>
                     </div>
                 </div>
             </section>

@@ -15,7 +15,7 @@
             <div class="pic">
                 <h1>Veggie Paté Wrap</h1> 
                 <div>
-                    <p>For a healthy lunch to take with you</p>
+                    <p>Some fancy starter or a colourful lunch-box!</p>
                 </div>  
             </div>
             <br class="clearfloat">
@@ -24,19 +24,17 @@
                 <div class="col-md-1 col-lg-2"></div>   
                     <div class="col-12 col-md-4 mb-3"><img src="img/veggie-pate-wrap.jpg" class="rounded animated fadeIn" alt="Veggie Paté Wrap"></div>
                     <div class="col-12 col-md-6 col-lg-5 article-block">
-                        <h3 class="text-left pt-0">Ingredients for this amazing veggie pasta dish</h3>
+                        <h3 class="text-left pt-0">Ingredients for this delightful Veggie Paté wrap</h3>
                         <ul class="white-text ">
-                            <li>150g of raw zucchini pasta</li>
-                            <li>115g of the Original Veggie Paté</li> 
-                            <li>Siracha mayonnaise</li>
-                            <li>Fermented or grated carrots</li> 
-                            <li>Fresh cucumbers</li>
-                            <li>Pickled red onions</li>
-                            <li>Vietnamese mint and coriander</li> 
-                            <li>Mizuna leaves</li>
+                            <li>Choose your wrap, corn, gluten-free, with spinach...</li>
+                            <li>the Original Veggie Paté for a mild version, the Thai one for a spicy touch!</li> 
+                            <li>Shredded red cabbage and carrot</li>
+                            <li>Slices of tomatoes and red onion</li> 
+                            <li>Coriander, Parsley or Mint, choose your green with lime juice</li>
+                            <li>Chipotle Mayo</li>
                             <br>
                         </ul>
-                        <p><em>Bon appétit :)</em></p>
+                        <p><em>Bon appétit :&#41;</em></p>
                     </div>
                 </div>
             </section>

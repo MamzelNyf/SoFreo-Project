@@ -2,10 +2,34 @@
 // This file contains styles that are specific to the stockist page.
 // -----------------------------------------------------------------------------
 .map {
-    @include media-breakpoint-up(lg) {padding-left: 15px;}
+        position: relative; 
+        padding-bottom: 150%; 
+        height: 0; 
+        overflow: hidden;
+        max-width: 100vw;
+        border-radius: .25rem!important;
+        @include media-breakpoint-up(md) {
+            padding-left: 15px;
+            padding-bottom: 0;
+            height:auto;
+            position: initial;
+    }
+}
+    
     iframe {
     @extend %full-width;
     min-height: 480px; 
     border:none;
-    max-width:100vw;
-    object-fit: cover;} } 
+    position: absolute; 
+    top:0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    padding:15px!important;
+    @include media-breakpoint-up(md) {
+        position: initial; 
+        width: 100%; 
+        height: auto;
+        padding:0!important;
+   } 
+}

@@ -17,7 +17,7 @@ footer {
 .footer-text li {
     font-size: 1rem;
     margin-bottom: 15px; 
-    @include media-breakpoint-up(md) { font-size: 0.9rem; }
+    @include media-breakpoint-up(lg) { font-size: 0.9rem; }
 }
 .footer-copyright{
     font-size: 0.8rem!important;

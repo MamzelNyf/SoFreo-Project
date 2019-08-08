@@ -18,7 +18,7 @@
 <meta name="google-site-verification" content="KwCbSwVnWKh9mACY80w6uD6a-kjhpGaiLqDfPRfmuRw" />
 
 <!-- Custom fonts -->
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald" rel="stylesheet">
 
 <!-- Custom styles for this template -->
 <link href="css/main.min.css" rel="stylesheet">
