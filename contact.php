@@ -34,7 +34,7 @@ if(isset($_POST['submit'])){
                 // Send email notification to the site admin 
                 $to = 'info@sofreo.com.au'; 
                 $htmlContent = " 
-                    <h1>Contact request details from SoFreo website</h1> 
+                    <h2>Contact request details from SoFreo website</h2> 
                     <p><b>Name: </b>".$name."</p> 
                     <p><b>Email: </b>".$email."</p> 
                     <p><b>Subject: </b>".$subject."</p> 
@@ -54,7 +54,7 @@ if(isset($_POST['submit'])){
                 $statusMsg = '
                 <div class="col text-white">
                 <p>We have received your message and would like to thank you for writing to us.</p>
-                <p>We will reply by email as soon as possible.</p>
+                <p>We will reply as soon as possible.</p>
                 <d>Talk to you soon,</>
                 <p><em>Fanny &amp; Alex</em></p></div>'; 
                 $postData = '';
@@ -62,10 +62,10 @@ if(isset($_POST['submit'])){
                 $statusMsg = 'Robot verification failed, please try again.'; 
             } 
         }else{ 
-            $statusMsg = 'Please check on the reCAPTCHA box.'; 
+            $statusMsg = 'Are you a human? Test the reCAPTCHA box!'; 
         } 
     }else{ 
-        $statusMsg = 'Please fill all the mandatory fields.'; 
+        $statusMsg = 'Please fill the form, we really want hear from you!'; 
     } 
 } 
 ?>
@@ -94,18 +94,37 @@ if(isset($_POST['submit'])){
             </div>
             <br class="clearfloat">
             <div class="container">
-                <section class="row text-center">
+                <section class="row text-left">
                     <div class="col">
                         <?php if(!empty($statusMsg)){ ?>
-                            <p class="status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
+                            <p class="status-msg text-center <?php echo $status; ?>"><?php echo $statusMsg; ?></p>
                         <?php } ?>
-                        <form action="" method="post" id="theForm">
+                        <form action="" method="post" id="theForm" class="needs-validation" novalidate>
                             <fieldset><h3>Feel free to contact us</h3>
-                                <div class="form-group row justify-content-center"><label class="col-sm-2 col-form-label text-white" for="name">Name*</label><div class="col-sm-5"><input type="text" class="form-control" name="name" id="name" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" placeholder="Your name" required></div></div>
-                                <div class="form-group row justify-content-center"><label class="col-sm-2 col-form-label text-white" for="email">Email*</label><div class="col-sm-5"><input type="email" class="form-control" name="email" id="email" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" placeholder="name@address.com" required></div></div classclass="col-sm-2 col-form-label">
-                                <div class="form-group row justify-content-center"><label class="col-sm-2 col-form-label text-white"for="subject">Subject</label><div class="col-sm-5"><input type="text" class="form-control" name="subject" id="subject" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>"></div></div>
-                                <div class="form-group row justify-content-center"><label class="col-sm-2 col-form-label text-white"for="message">Message*</label><div class="col-sm-5"><textarea class="form-control" name="message" id="message" rows="5" required><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea></div></div>
-                                <!-- Google Recaptcha box -->
+                                <div class="form-group row justify-content-center">
+                                    <label class="col-sm-2 col-form-label text-white" for="name">Name*</label>
+                                    <div class="col-sm-5"><input type="text" class="form-control" name="name" id="name" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" placeholder="Your name" required></div>
+                                    <div class="invalid-feedback">Please let us know who you are!</div>
+                                </div>
+                                <div class="form-group row justify-content-center">
+                                    <label class="col-sm-2 col-form-label text-white" for="email">Email*</label>
+                                    <div class="col-sm-5"><input type="email" class="form-control" name="email" id="email" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" placeholder="name@address.com" required></div>
+                                    <div class="invalid-feedback">Please provide your email, we want be able to answer you!</div>
+                                </div>
+                                <div class="form-group row justify-content-center"><label class="col-sm-2 col-form-label text-white"for="subject">Subject</label>
+                                    <div class="col-sm-5">
+                                        <select id="inputState" class="form-control"  name="subject"id="subject" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>">
+                                            <option selected>Hello !</option>
+                                            <option>I'm craving for some Veggie Paté !</option>
+                                            <option>I want to sell your Veggie Paté in my shop !</option>
+                                        </select>
+                                </div></div>
+                                <div class="form-group row justify-content-center">
+                                    <label class="col-sm-2 col-form-label text-white"for="message">Message*</label>
+                                    <div class="col-sm-5"><textarea class="form-control" name="message" id="message" rows="5" required><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea></div>
+                                    <div class="invalid-feedback">Any message for us?</div>
+                                </div>
+                                    <!-- Google Recaptcha box -->
                                 <div class="row justify-content-center"><div class=col-sm-2></div><div class="col-sm-5"><div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div></div></div>
                                 <div class="row justify-content-center"><div class=col-sm-2></div><div class="col-sm-5 "><input id="submit" class="btn" type="submit" name="submit" value="Send"></div></div>
                             </fieldset>
@@ -113,3 +132,4 @@ if(isset($_POST['submit'])){
                 </section>
             </div>
         <?php include 'includes/footer.php'; ?>
+        <br class="clearfloat">

@@ -22,7 +22,7 @@
             <section class="container">
                 <div class="row">
                     <div class="col-md-1 col-lg-2"></div>
-                    <div class="col-12 col-md-4 mb-3"><img src="img/pate-plancha.jpg" class="rounded animated fadeIn" alt="Veggie Paté"></div>
+                    <div class="col-12 col-md-4 mb-3"><img src="img/pate-plancha.jpg" class="rounded animated no-animation fadeIn" alt="Veggie Paté"></div>
                     <div class="col-12 col-md-6 col-lg-5 article-block">
                         <p> Choose your favourite slice of bread, add some fresh tomatoes, vegan mayo, sprouts... and “Bon appétit”!</p>
                         <p>For school lunch, picnic or your next outdoor adventure. </p>  

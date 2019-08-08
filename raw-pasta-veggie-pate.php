@@ -22,7 +22,7 @@
             <section class="container">
                 <div class="row">
                 <div class="col-md-1 col-lg-2"></div>   
-                    <div class="col-12 col-md-4 mb-3"><img src="img/raw-pasta-veggie.jpg" class="rounded animated fadeIn" alt="Raw Pasta with Veggie Paté"></div>
+                    <div class="col-12 col-md-4 mb-3"><img src="img/raw-pasta-veggie.jpg" class="rounded animated no-animation fadeIn" alt="Raw Pasta with Veggie Paté"></div>
                     <div class="col-12 col-md-6 col-lg-5 article-block">
                         <h3 class="text-left pt-0">Raw Zucchini Pasta with vegan bolognese &amp; macadamia ricotta</h3>
                         <ul class="white-text ">

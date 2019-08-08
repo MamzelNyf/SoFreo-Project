@@ -10,14 +10,18 @@
 
 .parallax {
   // Set a specific height 
-  height: calc(100vh - 150px);
+  height: calc(100vh - 150px); /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 70);
   //Create the parallax scrolling effect 
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
   background-image: url("../img/woman-sm.jpg");
-  @include media-breakpoint-up(md) { background-image: url("../img/woman-md.jpg"); }
+  @include media-breakpoint-up(md) { 
+    background-image: url("../img/woman-md.jpg"); 
+    background-attachment: fixed;
+    height: calc(100vh - 150px);
+  }
   @include media-breakpoint-up(lg) { background-image: url("../img/woman-lg.jpg"); }
 
 }
@@ -119,8 +123,10 @@
   .mark-start{
     font-size:6rem!important;
     position: absolute; 
-    left: -3%;
+    left: -13%;
     top: -15%;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
     @include media-breakpoint-up(lg) {
       left: 10%;
     }
@@ -128,7 +134,7 @@
   .mark-end{
     font-size:6rem!important;
     position: absolute; 
-      left: 100%;
+      left: 105%;
       top: 70%;
     }
     }

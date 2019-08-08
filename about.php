@@ -15,7 +15,7 @@
             <div class="pic px-3">
                 <h1>Do you know So Freo?</h1> 
                 <div>
-                    <p>Based in Fremantle, Western Australia, “So Freo Cuisine” focuses on providing organic, fresh and healthy options for everyone.</p>                            
+                    <p>Based in Fremantle, Western Australia, “So Freo Cuisine” focuses on providing organic, vegan, fresh and healthy options for everyone.</p>                            
                     <p>So Freo is the creative and culinary work of Alex &amp; Fanny.</p>
                 </div>  
             </div>
@@ -30,27 +30,28 @@
                     </div>
                 </div>
                 <div class="row about mt-4 mb-lg-5">
-                    <div class="col text-right"> <img class="about-img img-fluid mb-3 mb-lg-0 rounded wow animated fadeInRight" src="img/alex2.jpg" alt="Alexandre Teissier cooking"></div>
-                    <div class="about-text text-center p-3 rounded wow animated fadeInLeft">
+                    <div class="col text-right"> <img class="about-img img-fluid rounded wow animated no-animation fadeInRight" srcset="img/alex-sm.jpg 500w, img/alex-lg.jpg 900w" src="img/alex-lg.jpg" alt="Alexandre Teissier cooking"></div>
+                    <div class="about-text text-center p-3 rounded wow animated no-animation fadeInLeft">
                         <h3 class="mb-4 section-heading">
                         <span class="section-heading-upper">Nomadic Chef</span>
                         <span class="section-heading-lower">Alex</span>
                         </h3>
-                        <p class="mb-3">"After studying Culinary Art in France and spending a decade as a travelling Chef, experiencing some of the best food the world has to offer, I settled in beautiful Freo six years ago.</p> 
+                        <p class="mb-3">"I studied Culinary Art in France and experienced some of the best food the world has to offer, including the life-changing opportunity to work in a Vegan and Raw kitchen. After a decade as a travelling Chef, I settled in beautiful Fremantle six years ago.</p> 
                         <p>Being an outdoor and adventure enthusiast with a passion for food, I always bake a “Veggie Paté” to take on hikes with my mates. Over the years it has become too good not to share it with you!</p>
                         <p>I hope you enjoy it as much as we do!"</p>
                         <p><em>Alex</em></p>
                     </div>
                 </div>
                 <div class="row about">
-                    <div class="col my-lg-5 pt-lg-5"> <img class="about-img left img-fluid mb-3 mb-lg-0 rounded wow animated fadeInLeft" src="img/fanny.jpg" alt="Fanny Lefert at the market"></div>
-                    <div class="about-text right text-center p-3 rounded wow animated fadeInRight">
+                    <div class="col my-lg-5 pt-lg-5"> <img class="about-img left img-fluid rounded wow animated no-animation fadeInLeft" srcset="img/fanny-sm.jpg 500w, img/fanny-lg.jpg 900w" src="img/fanny-lg.jpg" alt="Fanny Lefert at the market"></div>
+                    <div class="about-text right text-center p-3 rounded wow animated no-animation fadeInRight">
                         <h3 class="mb-4 section-heading">
                         <span class="section-heading-upper">Digital Foodie</span>
                         <span class="section-heading-lower">Fanny</span>
                         </h3>
-                        <p class="mb-3">"After travelling around Australia for 2 years, I've met Alex in the beautiful region of Margaret River while we were working at Cape Loge, Luxury lodge of Australia.</p> 
-                        <p>We travelled and hiked together for 1 year, sharing food, ideas and values! Back to Fremantle, I've started to study Webdesign and with my Graphic Designer background, we were ready to launch our project: So Freo.</p>
+                        <p class="mb-3">"After travelling around Australia for 2 years, I've met Alex in the beautiful region of Margaret River, we travelled and hiked together for 1 year, sharing food, ideas and values!</p>
+                        <p>Back to Fremantle, we found an amazing community where we could experiment and live according to our values: being responsible and conscious regarding our planet, our people and our food!
+                        <p>I've started to study Webdesign and with my Graphic Designer background, we were ready to launch our project: So Freo.</p>
                         <p>It's an adventure we are really happy to share with you!"</p>
                         <p><em>Fanny</em></p>
                     </div>

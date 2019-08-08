@@ -18,7 +18,7 @@
             <li class="nav-item align-self-center px-1"><a href="stockists.php" class="nav-link">Where to find our products?</a></li>
          </ul>
          <ul class="d-md-flex w-auto justify-content-right">
-            <li class="nav-item align-self-center px-1"><a href="contact.php" class="nav-link">Contact</a></li>
+            <li class="nav-item align-self-center px-1"><a href="contact.php" class="nav-link">Contact us</a></li>
             <li class="nav-item align-self-center d-inline-block px-1"><a href="https://www.facebook.com/sofreo" class="nav-link" target="_blank"><img src="img/facebook.svg" width="20"alt="Facebook logo"></a></li>
             <li class="nav-item align-self-center d-inline-block px-1"><a href="https://www.instagram.com/sofreocuisine" class="nav-link" target="_blank"><img src="img/insta.svg" width="20" alt="Instagram logo"></a></li>
          </ul>

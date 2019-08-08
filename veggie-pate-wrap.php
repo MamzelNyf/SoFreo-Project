@@ -22,7 +22,7 @@
             <section class="container">
                 <div class="row">
                 <div class="col-md-1 col-lg-2"></div>   
-                    <div class="col-12 col-md-4 mb-3"><img src="img/veggie-pate-wrap.jpg" class="rounded animated fadeIn" alt="Veggie Paté Wrap"></div>
+                    <div class="col-12 col-md-4 mb-3"><img src="img/veggie-pate-wrap.jpg" class="rounded animated no-animation fadeIn" alt="Veggie Paté Wrap"></div>
                     <div class="col-12 col-md-6 col-lg-5 article-block">
                         <h3 class="text-left pt-0">Ingredients for this delightful Veggie Paté wrap</h3>
                         <ul class="white-text ">

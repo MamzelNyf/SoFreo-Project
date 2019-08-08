@@ -5,3 +5,10 @@
 .error{
     color:$danger;
 }
+.form-control{
+    min-width:300px;
+}
+.g-recaptcha{
+    height:120px;
+    @include media-breakpoint-up(md) { height:auto;}
+}
