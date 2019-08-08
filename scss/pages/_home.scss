@@ -20,9 +20,10 @@
   @include media-breakpoint-up(md) { 
     background-image: url("../img/woman-md.jpg"); 
     background-attachment: fixed;
-    height: calc(100vh - 150px);
   }
-  @include media-breakpoint-up(lg) { background-image: url("../img/woman-lg.jpg"); }
+  @include media-breakpoint-up(lg) { 
+    background-image: url("../img/woman-lg.jpg");    
+    height: calc(100vh - 150px);}
 
 }
 

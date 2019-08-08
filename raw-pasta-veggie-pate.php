@@ -20,6 +20,8 @@
             </div>
             <br class="clearfloat">
             <section class="container">
+                <div class="nextrecipe"><a href="veggie-pate-dip.php" title="Veggie Paté Dip">&#8250;<span class="sr-only">Previous</span></a></div>
+                <div class="previousrecipe"><a href="veggie-pate-wrap.php" title="Veggie Paté Wrap"><span class="sr-only">Next</span>&#8249; </a></div>
                 <div class="row">
                 <div class="col-md-1 col-lg-2"></div>   
                     <div class="col-12 col-md-4 mb-3"><img src="img/raw-pasta-veggie.jpg" class="rounded animated no-animation fadeIn" alt="Raw Pasta with Veggie Paté"></div>

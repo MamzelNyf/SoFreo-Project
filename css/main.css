@@ -22542,6 +22542,62 @@ ol li, ul li {
   }
 }
 
+.previousrecipe, .nextrecipe {
+  position: absolute;
+  z-index: 1;
+  top: 95%;
+}
+
+@media only screen and (max-width: 600px) {
+  .previousrecipe, .nextrecipe {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 40px;
+    border-radius: 5px;
+    width: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .previousrecipe, .nextrecipe {
+    top: 45%;
+  }
+}
+
+@media (min-width: 992px) {
+  .previousrecipe, .nextrecipe {
+    top: 60%;
+  }
+}
+
+.previousrecipe a, .nextrecipe a {
+  font-size: 4em;
+  color: #fff !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .previousrecipe a, .nextrecipe a {
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: top;
+    position: relative;
+    top: -32px;
+    left: -5px;
+  }
+}
+
+.previousrecipe a :hover, .nextrecipe a :hover {
+  background-color: #ddd !important;
+  color: black;
+}
+
+.previousrecipe {
+  left: 10px;
+}
+
+.nextrecipe {
+  right: 10px;
+}
+
 @font-face {
   font-family: 'MondayBay';
   src: url("../font/MondayBay.ttf");
@@ -22634,13 +22690,13 @@ footer ul {
   .parallax {
     background-image: url("../img/woman-md.jpg");
     background-attachment: fixed;
-    height: calc(100vh - 150px);
   }
 }
 
 @media (min-width: 992px) {
   .parallax {
     background-image: url("../img/woman-lg.jpg");
+    height: calc(100vh - 150px);
   }
 }
 

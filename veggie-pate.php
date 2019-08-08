@@ -27,7 +27,7 @@
                         <p> Choose your favourite slice of bread, add some fresh tomatoes, vegan mayo, sprouts... and “Bon appétit”!</p>
                         <p>For school lunch, picnic or your next outdoor adventure. </p>  
                         <p>Vegan and Gluten Free, it is your healthy and nutritious choice.</p> 
-                        <h3 class=" text-left">Organic Ingredients</h3>
+                        <h3 class=" text-left">100% Organic Ingredients</h3>
                         <ul class="white-text">
                             <li>Sweet potatoes</li>
                             <li>Carrots</li> 

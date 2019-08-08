@@ -19,7 +19,10 @@
                 </div>  
             </div>
             <br class="clearfloat">
+            
             <section class="container">
+                <div class="nextrecipe"><a href="veggie-pate-sandwich.php" title="Veggie Paté Sandwich">&#8250;<span class="sr-only">Previous</span></a></div>
+                <div class="previousrecipe"><a href="veggie-pate-cracker.php" title="Veggie Paté on crackers"><span class="sr-only">Next</span>&#8249; </a></div>
                 <div class="row">
                 <div class="col-md-1 col-lg-2"></div>   
                     <div class="col-12 col-md-4 mb-3"><img src="img/veggie-pate-banh-mi.jpg" class="rounded animated no-animation fadeIn" alt="Veggie Paté Banh Mi"></div>

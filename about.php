@@ -25,7 +25,7 @@
                         <img src="img/recycled.svg" class="img-fluid pt-2" id="recycle" alt="recycle logo">
                     </div>
                     <div class="col article-block">
-                        <h3 class="text-left">Reduce, Recycle, Reuse</h3>
+                        <h3 class="text-left font-weight-bold">Reduce, Recycle, Reuse</h3>
                         <p>Our entreprise is environmentally conscious, we source our organic ingredients locally, our packaging is printed in Perth on recycled paper with vegetable ink by <a href="https://www.environmentalprintingco.com/" target="_blank">the Environmental Printing Company</a> and the vaccum pack is recyclable, very soon fully COMPOSTABLE!</p>
                     </div>
                 </div>
