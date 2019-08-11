@@ -65,7 +65,7 @@ if(isset($_POST['submit'])){
             $statusMsg = 'Are you a human? Test the reCAPTCHA box!'; 
         } 
     }else{ 
-        $statusMsg = 'Please fill the form, we really want hear from you!'; 
+        $statusMsg = 'Please fill the form, we really want to hear from you!'; 
     } 
 } 
 ?>
@@ -109,11 +109,11 @@ if(isset($_POST['submit'])){
                                 <div class="form-group row justify-content-center">
                                     <label class="col-sm-2 col-form-label text-white" for="email">Email*</label>
                                     <div class="col-sm-5"><input type="email" class="form-control" name="email" id="email" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" placeholder="name@address.com" required></div>
-                                    <div class="invalid-feedback">Please provide your email, we want be able to answer you!</div>
+                                    <div class="invalid-feedback">Please provide your email, we want to be able to answer you!</div>
                                 </div>
-                                <div class="form-group row justify-content-center"><label class="col-sm-2 col-form-label text-white"for="subject">Subject</label>
+                                <div class="form-group row justify-content-center"><label class="col-sm-2 col-form-label text-white" for="subject">Subject</label>
                                     <div class="col-sm-5">
-                                        <select id="inputState" class="form-control"  name="subject"id="subject" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>">
+                                        <select class="form-control" name="subject" id="subject" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>">
                                             <option selected>Hello !</option>
                                             <option>I'm craving for some Veggie Paté !</option>
                                             <option>I want to sell your Veggie Paté in my shop !</option>

@@ -13,15 +13,15 @@
         ?>
         <main>
             <div class="parallax section-heading">
-              <div class="homequote d-none d-md-block">
-                <span class="mark-start text-black-50 animated no-animation fadeIn">"</span>
+              <div class="homequote d-none d-md-block animated no-animation fadeIn delay-1s">
+                <span class="mark-start text-black-50">"</span>
                 <div>
-                  <span class="animated no-animation wow slideInRight">At <h1>SoFreo</h1>, we cook with</span>
-                  <span class="heading-lower wow animated no-animation slideInRight" data-wow-delay="0.2s">Organics Veggies</span>
-                  <span class="animated no-animation wow slideInRight" data-wow-delay="0.3s">To provide you a tasty and  </span>
-                  <span class="heading-lower wow animated no-animation fadeInRight" data-wow-delay="0.4s">Healthy Product</span>
+                  <span>At <h1>SoFreo</h1>, we cook with</span>
+                  <span class="heading-lower">Organics Veggies</span>
+                  <span >To provide you a tasty and  </span>
+                  <span class="heading-lower">Healthy Product</span>
                 </div>
-                <span class="mark-end text-black-50 animated no-animation fadeIn">"</span>
+                <span class="mark-end text-black-50">"</span>
               </div>
             </div>
             <div class="bloc">
@@ -44,8 +44,8 @@
                             </div>
                         </div>
                           <figure>
-                            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded order-md-1 animated no-animation wow fadeInLeft" srcset="img/max-sm.jpg 500w, img/max-md.jpg 900w, img/max-lg.jpg 1440w" src="img/max-md.jpg" type=“image/jpeg” alt="Max eating Veggie Pate on the Ridge walk">
-                            <figcaption class="text-white mt-2">"Max enjoyed a nice<a href="veggie-pate-sandwich.php"> Veggie Paté Sandwich</a> on the Sterling Ranges Ridge Walk"</figcaption>
+                            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded order-md-1 " srcset="img/max-sm.jpg 500w, img/max-md.jpg 900w, img/max-lg.jpg 1440w" src="img/max-md.jpg" type=“image/jpeg” alt="Max eating Veggie Pate on the Ridge walk">
+                            <figcaption class="text-white mt-2">"Max enjoyed a nice<a href="veggie-pate-sandwich.php"> Veggie Paté Sandwich</a> on the Stirling Ranges Ridge Walk, WA"</figcaption>
                           </figure>
                         </div>
                     </div>

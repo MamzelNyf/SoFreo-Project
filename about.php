@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="row about mt-4 mb-lg-5">
-                    <div class="col text-right"> <img class="about-img img-fluid rounded wow animated no-animation fadeInRight" srcset="img/alex-sm.jpg 500w, img/alex-lg.jpg 900w" src="img/alex-lg.jpg" alt="Alexandre Teissier cooking"></div>
+                    <div class="col text-right"> <img class="about-img img-fluid rounded" srcset="img/alex-sm.jpg 500w, img/alex-lg.jpg 900w" src="img/alex-lg.jpg" alt="Alexandre Teissier cooking"></div>
                     <div class="about-text text-center p-3 rounded wow animated no-animation fadeInLeft">
                         <h3 class="mb-4 section-heading">
                         <span class="section-heading-upper">Nomadic Chef</span>
@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="row about">
-                    <div class="col my-lg-5 pt-lg-5"> <img class="about-img left img-fluid rounded wow animated no-animation fadeInLeft" srcset="img/fanny-sm.jpg 500w, img/fanny-lg.jpg 900w" src="img/fanny-lg.jpg" alt="Fanny Lefert at the market"></div>
+                    <div class="col my-lg-5 pt-lg-5"> <img class="about-img left img-fluid rounded" srcset="img/fanny-sm.jpg 500w, img/fanny-lg.jpg 900w" src="img/fanny-lg.jpg" alt="Fanny Lefert at the market"></div>
                     <div class="about-text right text-center p-3 rounded wow animated no-animation fadeInRight">
                         <h3 class="mb-4 section-heading">
                         <span class="section-heading-upper">Digital Foodie</span>

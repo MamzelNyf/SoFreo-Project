@@ -5,7 +5,7 @@
                     <ul>
                         <li class="inline"><a href="about.php">About Us</a><span> - </span></li>
                         <li class="inline"><a href="privacypolicy.php">Privacy Policy</a><span> - </span></li>              
-                        <li class="inline"><a href="contact.php" accesskey="c">Contact</a></li>
+                        <li class="inline"><a href="contact.php">Contact</a></li>
                     </ul>
                     <ul>
                         
@@ -15,11 +15,9 @@
         </footer>
         
         <!-- Bootstrap core JavaScript -->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="vendor/mdb/mdb.min.js"></script>
-        <script src="vendor/mdb/popper.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/mdb.min.js"></script>
         <script src="js/animated.js"></script>
-
     </body>
 </html>
