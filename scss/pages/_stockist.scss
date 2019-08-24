@@ -35,3 +35,15 @@
         min-height: 480px; 
     } 
 }
+#infobox{
+background-color: black;
+border-radius: .25rem !important;
+bottom: 30px;
+padding: 10px;
+position: absolute;
+left: 30px;
+    h3{
+        margin:0;
+        padding:0;
+    }
+}

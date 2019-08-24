@@ -15,8 +15,8 @@
             <div class="pic">
                 <h1>Veggie Paté &amp; Co</h1>
                 <div>
-                <p>We are excited to share with you our products : the Original Veggie Paté and the Thai Veggie Paté!</p>
-                <p>Soon you find new treats to add to your favorite vegan meal! <br>Stay connected!</p>
+                <p>We are excited to share our products : the Original Veggie Paté and the Thai Veggie Paté!</p>
+                <p>Soon you find new treats to add to your favorite meal. <br>Stay connected!</p>
                 </div>
             </div>
             <br class="clearfloat">

@@ -26,7 +26,7 @@
                     </div>
                     <div class="col article-block">
                         <h3 class="text-left font-weight-bold">Reduce, Recycle, Reuse</h3>
-                        <p>Our entreprise is environmentally conscious, we source our organic ingredients locally, our packaging is printed in Perth on recycled paper with vegetable ink by <a href="https://www.environmentalprintingco.com/" target="_blank">the Environmental Printing Company</a> and the vaccum pack is recyclable, very soon fully COMPOSTABLE!</p>
+                        <p>Our business is environmentally conscious, we source our organic ingredients locally, our packaging is printed in Perth on recycled paper with vegetable ink by <a href="https://www.environmentalprintingco.com/" target="_blank">the Environmental Printing Company</a> and the vaccum pack is recyclable, and fully COMPOSTABLE very soon.</p>
                     </div>
                 </div>
                 <div class="row about mt-4 mb-lg-5">
@@ -36,7 +36,7 @@
                         <span class="section-heading-upper">Nomadic Chef</span>
                         <span class="section-heading-lower">Alex</span>
                         </h3>
-                        <p class="mb-3">"I studied Culinary Art in France and experienced some of the best food the world has to offer, including the life-changing opportunity to work in a Vegan and Raw kitchen. After a decade as a travelling Chef, I settled in beautiful Fremantle six years ago.</p> 
+                        <p class="mb-3">"I studied culinary art in France and experienced some of the best food the world has to offer, including the life-changing opportunity to work in a Vegan and Raw kitchen. After a decade as a travelling Chef, I settled in beautiful Fremantle six years ago.</p> 
                         <p>Being an outdoor and adventure enthusiast with a passion for food, I always bake a “Veggie Paté” to take on hikes with my mates. Over the years it has become too good not to share it with you!</p>
                         <p>I hope you enjoy it as much as we do!"</p>
                         <p><em>Alex</em></p>
@@ -49,10 +49,10 @@
                         <span class="section-heading-upper">Digital Foodie</span>
                         <span class="section-heading-lower">Fanny</span>
                         </h3>
-                        <p class="mb-3">"After travelling around Australia for 2 years, I've met Alex in the beautiful region of Margaret River, we travelled and hiked together for 1 year, sharing food, ideas and values!</p>
-                        <p>Back to Fremantle, we found an amazing community where we could experiment and live according to our values: being responsible and conscious regarding our planet, our people and our food!
-                        <p>I've started to study Webdesign and with my Graphic Designer background, we were ready to launch our project: So Freo.</p>
-                        <p>It's an adventure we are really happy to share with you!"</p>
+                        <p class="mb-3">"After travelling around Australia for 2 years, I met Alex in the beautiful region of Margaret River, we travelled and hiked together for a year, sharing food, ideas and values!</p>
+                        <p>Back to Fremantle, we found an amazing community where we could experiment and live according to these values: being responsible and conscious regarding our planet, our people and our food!
+                        <p>I currently study webdesign and with my background in graphic design, we were ready to launch our project: So Freo.</p>
+                        <p>It's an adventure we are really happy to share with you."</p>
                         <p><em>Fanny</em></p>
                     </div>
                 </div>

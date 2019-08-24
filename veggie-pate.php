@@ -15,7 +15,7 @@
             <div class="pic">
                 <h1>The Original Veggie Paté</h1> 
                 <div class="bold">
-                    <p>This wholesome high-protein organic veggie-spread is perfect to add to your sandwich.</p>
+                    <p>This wholesome high-protein organic veggie-spread is perfect for your sandwich.</p>
                 </div>  
             </div>
             <br class="clearfloat">
@@ -26,9 +26,9 @@
                     <div class="col-12 col-md-6 col-lg-5 article-block">
                         <p> Choose your favourite slice of bread, add some fresh tomatoes, vegan mayo, sprouts... and “Bon appétit”!</p>
                         <p>For school lunch, picnic or your next outdoor adventure. </p>  
-                        <p>Vegan and Gluten Free, it is your healthy and nutritious choice.</p> 
+                        <p>Vegan and Gluten Free, it is a healthy and nutritious choice.</p> 
                         <h3 class=" text-left">100% Organic Ingredients</h3>
-                        <ul class="white-text">
+                        <ul class="text-white">
                             <li>Sweet potatoes</li>
                             <li>Carrots</li> 
                             <li>Onions</li>
