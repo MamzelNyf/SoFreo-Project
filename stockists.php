@@ -89,7 +89,4 @@
             </section>
             </main>
         <div class="clearfloat"> </div>
-        <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3PXzgSYzdDC2UF4Yx_dJrfxHPPaGRTAA&callback=initMap">
-        </script>
         <?php include 'includes/footer.php'; ?>
