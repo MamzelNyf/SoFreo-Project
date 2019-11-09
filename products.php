@@ -24,7 +24,7 @@
                 <section class="row mx-md-3">
                     <div class="col-12 col-md-4 text-center"><h3>Veggie Paté</h3><a href="veggie-pate.php"><img src="img/original-veggie-pate.jpg" class="no-animation animated wow fadeInUp rounded" alt="Veggie Paté"></a></div>
                     <div class="col-12 col-md-4 text-center"><h3>Thai Veggie Paté</h3><a href="thai-pate.php"><img src="img/thai-veggie-pate.jpg" class="no-animation animated wow fadeInUp rounded" data-wow-delay="0.2s" alt="Thai Veggie Paté"></a></div>
-                    <div class="col-12 col-md-4 text-center"><h3>Be patient !</h3><img src="img/coming-soon.svg" class="wow rounded" alt="Coming Soon"></div>
+                    <div class="col-12 col-md-4 text-center"><h3>More delicacies :)</h3><img src="img/coming-soon.svg" class="wow rounded" alt="Coming Soon"></div>
                 </section>
             </div>
         <?php include 'includes/footer.php'; ?>

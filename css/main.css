@@ -10983,9 +10983,9 @@ h1 {
 
 h2 {
   font-family: 'MondayBay', sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 200;
-  color: #d37d0c;
+  color: #fff;
 }
 
 @media (min-width: 768px) {

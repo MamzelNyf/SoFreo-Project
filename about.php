@@ -26,7 +26,7 @@
                     </div>
                     <div class="col article-block">
                         <h3 class="text-left font-weight-bold">Reduce, Recycle, Reuse</h3>
-                        <p>Our business is environmentally conscious, we source our organic ingredients locally, our packaging is printed in Perth on recycled paper with vegetable ink by <a href="https://www.environmentalprintingco.com/" target="_blank">the Environmental Printing Company</a> and the vaccum pack is recyclable, and fully COMPOSTABLE very soon.</p>
+                        <p>Our business is environmentally conscious, we source our organic ingredients locally, our packaging is printed in Perth on RECYCLED PAPER with VEGETABLE INKS by a local printer <a href="https://www.environmentalprintingco.com/" target="_blank" rel="noopener noreferrer">the Environmental Printing Company</a> and the vaccum pack is a fully COMPOSTABLE pack, produce by <a href="https://www.econicpackaging.com/" target="_blank" rel="noopener noreferrer"> the Econic</a>.</p>
                     </div>
                 </div>
                 <div class="row about mt-4 mb-lg-5">

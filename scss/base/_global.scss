@@ -70,9 +70,9 @@ color: $back-color;
 
 h2 {
 font-family: 'MondayBay', sans-serif;
-font-size: 3rem;
+font-size: 3.5rem;
 font-weight: 200;
-color: $brand-color; 
+color: $text-color; 
 @include media-breakpoint-up(md) { margin-bottom: 16px;}
 @include media-breakpoint-up(lg) { margin-bottom: 23px;}
 }
