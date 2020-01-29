@@ -16,7 +16,7 @@
                 <h1>Let's share it all!</h1>
                 <div class="bold">
                     <p>We wanted to create and share with you some recipes to use with the Veggie Paté. </p>
-                    <p>If you have any yummy idea to accomodate it, don't hesitate to share your recipe with us on <a href="https://www.facebook.com/sofreo" target="_blank">Facebook</a> or <a href="https://www.instagram.com/sofreocuisine" target="_blank">Instagram</a>!!!</p>                           
+                    <p>If you have any yummy idea to accomodate it, don't hesitate to share your recipe with us on <a href="https://www.facebook.com/sofreo" target="_blank" rel="noopener noreferrer">Facebook</a> or <a href="https://www.instagram.com/sofreocuisine" target="_blank" rel="noopener noreferrer">Instagram</a>!!!</p>                           
                 </div> 
             </div>
             <br class="clearfloat">

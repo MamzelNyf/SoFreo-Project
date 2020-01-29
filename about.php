@@ -26,7 +26,7 @@
                     </div>
                     <div class="col article-block">
                         <h3 class="text-left font-weight-bold">Reduce, Recycle, Reuse</h3>
-                        <p>Our business is environmentally conscious, we source our organic ingredients locally, our packaging is printed in Perth on RECYCLED PAPER with VEGETABLE INKS by a local printer <a href="https://www.environmentalprintingco.com/" target="_blank" rel="noopener noreferrer">the Environmental Printing Company</a> and the vaccum pack is a fully COMPOSTABLE pack, produce by <a href="https://www.econicpackaging.com/" target="_blank" rel="noopener noreferrer"> the Econic</a>.</p>
+                        <p>Our business is environmentally conscious, we source our organic ingredients locally, our packaging is printed in Perth on RECYCLED PAPER with VEGETABLE INKS by a local printer <a href="https://www.environmentalprintingco.com/" target="_blank" rel="noopener noreferrer">the Environmental Printing Company</a> and the vaccum pack is a fully COMPOSTABLE pack, produced by <a href="https://www.econicpackaging.com/" target="_blank" rel="noopener noreferrer"> the Econic</a>.</p>
                     </div>
                 </div>
                 <div class="row about mt-4 mb-lg-5">
@@ -51,7 +51,7 @@
                         </h3>
                         <p class="mb-3">"After travelling around Australia for 2 years, I met Alex in the beautiful region of Margaret River, we travelled and hiked together for a year, sharing food, ideas and values!</p>
                         <p>Back to Fremantle, we found an amazing community where we could experiment and live according to these values: being responsible and conscious regarding our planet, our people and our food!
-                        <p>I currently study webdesign and with my background in graphic design, we were ready to launch our project: So Freo.</p>
+                        <p>I just graduated with web development diploma and with my background in graphic design, we were ready to launch our project: So Freo.</p>
                         <p>It's an adventure we are really happy to share with you."</p>
                         <p><em>Fanny</em></p>
                     </div>

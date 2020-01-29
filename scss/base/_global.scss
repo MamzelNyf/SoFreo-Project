@@ -95,7 +95,8 @@ ol, ul {
     line-height: 1.4;
     margin:0!important;
     li{
-      font-size:1rem;
+      font-size:1.1rem!important;
+      margin: 15px 0;
       @include media-breakpoint-up(lg) {
         font-size: 1rem;}
     }

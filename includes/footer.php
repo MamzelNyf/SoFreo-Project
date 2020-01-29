@@ -9,7 +9,7 @@
                     </ul>
                     <ul>
                         
-                        <li class="footer-copyright">©2019 So Freo Cuisine - Powered by <a href="https://creativeontheroad.com" target="_blank">MamzelNyf</a></li>
+                        <li class="footer-copyright">©2019 So Freo Cuisine - Powered by <a href="https://shedesign.dev" target="_blank" rel="noopener noreferrer">MamzelNyf</a></li>
                     </ul>
                 </div>
         </footer>

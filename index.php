@@ -58,14 +58,14 @@
         <div class="col-xl-9 mx-auto">
           <div class="text-center cta-inner rounded animated no-animation wow fadeInUp">
             <h3 class="mb-2 section-heading "><span class="section-heading-upper">Give it a</span> <span class="section-heading-lower">try</span></h3>
-            <a class="mb-4">It doesn’t matter if you’re vegan, gluten free, young or old, the Veggie Paté is for you.
+            <p class="mb-4">It doesn’t matter if you’re vegan, gluten free, young or old, the Veggie Paté is for you.
             <br>When we prepared the recipe, we wanted it to be tasty AND nutritious. We wanted to add the best, organic veggies, a yummy taste and lots of love! 
             <br>We created some <a href="products.php" class="font-weight-bold">ideas to inspire you</a>, feel free to share with us.
             <br>Have a look on our calendar to <a href="stockists.php#calendar" class="font-weight-bold">find us at the market</a> or on the map to find your <a href="stockists.php#map" class="font-weight-bold">nearest stockist</a>.
             <br>We hope you will really enjoy it!</p>
             <div class="align-content-center">
-              <a href="https://www.facebook.com/sofreo" class="socialicon" target="_blank"><img src="img/facebook.svg" width="20"alt="Facebook logo"></a>
-              <a href="https://www.instagram.com/sofreocuisine" class="socialicon" target="_blank"><img src="img/insta.svg" width="20" alt="Instagram logo"></a>
+              <a href="https://www.facebook.com/sofreo" class="socialicon" target="_blank" rel="noopener noreferrer"><img src="img/facebook.svg" width="20"alt="Facebook logo"></a>
+              <a href="https://www.instagram.com/sofreocuisine" class="socialicon" target="_blank" rel="noopener noreferrer"><img src="img/insta.svg" width="20" alt="Instagram logo"></a>
             </div>
           </div>
         </div>

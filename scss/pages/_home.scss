@@ -36,7 +36,8 @@
     position: relative;
     padding: 1rem;
     margin: 0.5rem;
-    background-color: fade-out($white, 0.15);
+    // background-color: fade-out($white, 0.15);
+    background-color: $white;
     &:before {
       border-radius: 0.5rem;
       content: '';
@@ -139,4 +140,14 @@
       left: 105%;
       top: 70%;
     }
+  }
+.mb-4 a:hover {
+  color: $primary!important;
+  font-weight:bold!important;
+}
+.btn-xl{
+  font-size: 1.2rem;
+  @include media-breakpoint-up(md) {
+    font-size:1rem;
     }
+}
