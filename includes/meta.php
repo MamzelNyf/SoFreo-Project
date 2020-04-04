@@ -16,6 +16,16 @@
 <meta property="og:image" content="https://sofreo.com.au/img/sofreo-logo.svg"/>
 <link rel="icon" href="img/sofreo-favicon.png" type="image/png">
 <meta name="google-site-verification" content="KwCbSwVnWKh9mACY80w6uD6a-kjhpGaiLqDfPRfmuRw" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119545944-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119545944-4');
+</script>
+
 
 <!-- Custom fonts -->
 <link href="https://fonts.googleapis.com/css?family=Oswald|Quicksand&display=swap" rel="stylesheet">

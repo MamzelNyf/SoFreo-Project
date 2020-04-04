@@ -45,12 +45,13 @@
                         <div class="cell">
                             <ul>
                                 <li><a href="https://www.mannawholefoods.com.au/" target="_blank" rel="noopener noreferrer">Manna Wholefood Cafe</a></li>
-                                <li><a href="https://www.facebook.com/IGARossmoyne/" target="_blank" rel="noopener noreferrer">Rossmoyne IGA</a></li>
                                 <li><a href="https://peachesfresh.com.au/" target="_blank" rel="noopener noreferrer">Peaches Fresh Food</a></li>
                                 <li><a href="https://www.boatshedmarket.com.au/" target="_blank" rel="noopener noreferrer">Boatshed</a></li>
-                                <li><a href="https://localfoodiehub.com.au/" target="_blank" rel="noopener noreferrer">Local Foodie Hub</a></li>
-                                <li><a href="https://www.perthorganics.com/" target="_blank" rel="noopener noreferrer">Perth Organics</a></li>
                                 <li><a href="https://malibufresh.com.au/" target="_blank" rel="noopener noreferrer">Malibu Fresh Essentials</a></li>
+                                <li><a href="https://www.facebook.com/fmclaremont/" target="_blank" rel="noopener noreferrer">Claremont IGA - Foodie Market</a></li>
+                                <li><a href="https://www.facebook.com/Organic-on-Charles-149585671729669/" target="_blank" rel="noopener noreferrer">Organic on Charles</a></li>
+                                <li><a href="https://www.perthorganics.com/" target="_blank" rel="noopener noreferrer">Perth Organics</a></li>
+                                <li><a href="https://localfoodiehub.com.au/" target="_blank" rel="noopener noreferrer">Local Foodie Hub</a></li>                                
                             </ul>
                         </div>
                     </div>
