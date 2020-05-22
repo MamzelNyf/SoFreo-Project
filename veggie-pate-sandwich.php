@@ -22,7 +22,7 @@
             <section class="container">
                 <div class="row position-relative">
                 <div class="previousrecipe"><a href="veggie-pate-cracker.php" title="Veggie Paté on crackers"><span class="sr-only">Previous</span>&#8249; </a></div>
-                <div class="nextrecipe"><a href="couscous-veggie-pate.php" title="Couscous with Veggie Paté">&#8250;<span class="sr-only">Next</span></a></div>
+                <div class="nextrecipe"><a href="veggie-pate-burger.php" title="Veggie Paté Burger">&#8250;<span class="sr-only">Next</span></a></div>
                 <div class="col-md-1 col-lg-2"></div>   
                     <div class="col-12 col-md-4 mb-3"><img src="img/veggie-pate-sandwich.jpg" class="rounded animated no-animation fadeIn" alt="Veggie Paté Sandwich"></div>
                     <div class="col-12 col-md-6 col-lg-5  article-block">
